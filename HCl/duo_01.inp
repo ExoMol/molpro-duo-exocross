@@ -110,7 +110,7 @@ THRESH_INTES 1e-60
 THRESH_LINE 1e-40
 TEMPERATURE 2000
 thresh_dipole 1e-9
-linelist HCl_duo_01
+linelist duo_01
 J 0 - 40
 freq-window 0,20000
 energy low 0, 20000 upper 0, 40000

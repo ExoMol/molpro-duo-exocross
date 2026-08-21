@@ -16,8 +16,8 @@
 #     using the Gaussian line profile of HWHM of 1 cm-1 on a grid of 1 cm-1 covering the range 0-20000 cm-1
 
 # 1.MOLPRO
-#./run-molpro.sh HCl_loop6.com
+#./run-molpro.sh molpro_loop6.com
 # 2. Duo
-./run_duo_template_intensity.sh HCl_duo_01.template HCl_dmc_01.template
+./run_duo_template_intensity.sh duo_01.template duo_dmc_01.template
 # 3. ExoCross
-./h_g1_T.sh  HCl_duo_01 1000
+./h_g1_T.sh  duo_01 1000

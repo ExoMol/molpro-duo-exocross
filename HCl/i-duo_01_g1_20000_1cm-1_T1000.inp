@@ -13,7 +13,7 @@ gaussian
 
 hwhm 1
 
-output i-HCl_duo_01_g1_20000_1cm-1_T1000
+output i-duo_01_g1_20000_1cm-1_T1000
 
 NRAM 1000000
 
@@ -21,7 +21,7 @@ NPROCS 4
 
 verbose 4
 
-States HCl_duo_01.states
+States duo_01.states
 
-transitions HCl_duo_01.trans
+transitions duo_01.trans
 

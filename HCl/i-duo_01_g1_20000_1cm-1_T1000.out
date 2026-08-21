@@ -22,7 +22,7 @@ gaussian
 hwhm 1
 
 
-output i-HCl_duo_01_g1_20000_1cm-1_T1000
+output i-duo_01_g1_20000_1cm-1_T1000
 
 
 NRAM 1000000
@@ -34,14 +34,14 @@ NPROCS 4
 verbose 4
 
 
-States HCl_duo_01.states
+States duo_01.states
 
 
-transitions HCl_duo_01.trans
+transitions duo_01.trans
 
 
 
-Reading energies from HCl_duo_01.states...
+Reading energies from duo_01.states...
 
 Max number of energy records =        11
  ID max:        2016 , min:           1 States selected:         822
@@ -83,7 +83,7 @@ Computing ABSORPTION with GAUSSIAN ...
 
 Transition files ... 
 
-  Processing HCl_duo_01.trans...
+  Processing duo_01.trans...
     Combine intensities from different cores
 
 The absorption is in cm / molecule per cm-1
@@ -112,7 +112,7 @@ Total intensity  (sum):  1.69548735E-17 (int):  1.69548735E-17
  (       20 arrays contributing less than 1% are not shown)
 
 
-              Timing data at 2026/08/21 08:34:54
+              Timing data at 2026/08/21 08:51:15
 
                                             Total time (seconds)  Self time (seconds)
  Timer                               Calls  --------------------  -------------------

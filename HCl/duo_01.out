@@ -150,7 +150,7 @@ THRESH_INTES 1e-60
 THRESH_LINE 1e-40
 TEMPERATURE 2000
 thresh_dipole 1e-9
-linelist HCl_duo_01
+linelist duo_01
 J 0 - 40
 freq-window 0,20000
 energy low 0, 20000 upper 0, 40000
@@ -9769,7 +9769,7 @@ done
  (       31 arrays contributing less than 1% are not shown)
 
 
-              Timing data at 2026/08/21 08:34:53
+              Timing data at 2026/08/21 08:51:14
 
  Timer                               Calls  Total time (seconds)  Self time (seconds)
  -----                               -----  --------------------  -------------------
