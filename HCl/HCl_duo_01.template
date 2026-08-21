@@ -1,0 +1,37 @@
+atoms H Cl
+
+States X
+
+print_pecs_and_couplings_to_file
+
+jrot 0 - 10
+
+(Defining the integration grid)
+grid
+ npoints 301
+ range   0.8 3.0
+ type 0   (nsub)
+end
+
+symmetry Cs(M)
+
+DIAGONALIZER
+ SYEV
+end
+
+(Vibrational basis set)
+CONTRACTION
+  vib
+  vmax  50
+END
+
+assign_V_by_count
+
+poten X
+name "X1Sigma+"
+symmetry +
+lambda 0
+mult 1
+type grid
+units Eh
+values

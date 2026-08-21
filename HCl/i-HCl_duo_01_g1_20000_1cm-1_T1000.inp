@@ -1,0 +1,27 @@
+
+mem 190.0 gb
+
+Temperature 1000
+Range 0 20000
+
+npoints 20000
+
+(abundance)
+
+absorption 
+gaussian
+
+hwhm 1
+
+output i-HCl_duo_01_g1_20000_1cm-1_T1000
+
+NRAM 1000000
+
+NPROCS 4
+
+verbose 4
+
+States HCl_duo_01.states
+
+transitions HCl_duo_01.trans
+

@@ -1,0 +1,126 @@
+Read the input
+
+
+mem 190.0 gb
+
+
+Temperature 1000
+Range 0 20000
+
+
+npoints 20000
+
+
+(abundance)
+
+
+
+absorption
+gaussian
+
+
+hwhm 1
+
+
+output i-HCl_duo_01_g1_20000_1cm-1_T1000
+
+
+NRAM 1000000
+
+
+NPROCS 4
+
+
+verbose 4
+
+
+States HCl_duo_01.states
+
+
+transitions HCl_duo_01.trans
+
+
+
+Reading energies from HCl_duo_01.states...
+
+Max number of energy records =        11
+ ID max:        2016 , min:           1 States selected:         822
+ ... reading energies done!
+
+ ! partition function value is   5.50410494E+02
+
+
+Cross-sections using GAUSSIAN profile with HWHM =        1.00000000
+          Number of grid points =    20001
+          Range =          0.0000000-     20000.0000000
+          Temperature =       1000.0000000
+          Partition function =          550.4105
+          Spectrum type = ABSORPTION
+
+          Pressure =      0.1000000E+01
+          Voigt parameters:   gamma       n         T0            P0     Ratio
+
+
+ Memory Report:
+ Active Arrays                                        size (GiB)
+ swap:intens_omp                                         0.000596                
+ swap:acoef_RAM                                          0.007451                
+ swap:indexf_RAM                                         0.003725                
+ swap:indexi_RAM                                         0.003725                
+ swap:abscoef_ram                                        0.007451                
+ swap:nu_ram                                             0.007451                
+ swap:ileveli_RAM                                        0.003725                
+ swap:ilevelf_RAM                                        0.003725                
+ swap:gamma_ram                                          0.007451                
+ Total memory   =                                     0.04564117 GiB
+ Maximal memory =                                     0.04564117 GiB (           190.0)
+
+ (       13 arrays contributing less than 1% are not shown)
+
+
+Computing ABSORPTION with GAUSSIAN ... 
+
+
+Transition files ... 
+
+  Processing HCl_duo_01.trans...
+    Combine intensities from different cores
+
+The absorption is in cm / molecule per cm-1
+
+Total intensity  (sum):  1.69548735E-17 (int):  1.69548735E-17
+
+
+ Memory Report:
+ Active Arrays                                        size (GiB)
+ gamma_idx                                               0.000001                
+ gamma_comb                                              0.000002                
+ Total memory   =                                     0.00000235 GiB
+ Maximal memory =                                     0.04564117 GiB (           190.0)
+
+ (       20 arrays contributing less than 1% are not shown)
+
+
+
+ Memory Report:
+ Active Arrays                                        size (GiB)
+ gamma_idx                                               0.000001                
+ gamma_comb                                              0.000002                
+ Total memory   =                                     0.00000235 GiB
+ Maximal memory =                                     0.04564117 GiB (           190.0)
+
+ (       20 arrays contributing less than 1% are not shown)
+
+
+              Timing data at 2026/08/21 08:34:54
+
+                                            Total time (seconds)  Self time (seconds)
+ Timer                               Calls  --------------------  -------------------
+ -----                               -----       Real       CPU        Real       CPU
+
+ Spectrum                               1.        0.1       0.4         0.1       0.4
+ read-normal-trans                      1.        0.0       0.0         0.0       0.0
+ Calc                                   1.        0.0       0.0         0.0       0.0
+
+ (  1 timers contributing less than 1% are not shown)
+

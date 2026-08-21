@@ -1,0 +1,7 @@
+dipole X
+name "<X|mu|X>"
+symmetry +
+lambda 0
+mult 1
+type grid
+values
