@@ -1,1 +1,7 @@
-The master pipeline file is run_all.sh
+1. Ab initio line list
+The simple master pipeline file is run_all.sh. This is to generate an ab initio line list without any refinement to experiment. 
+
+
+2. Refining the ab initio model by fitting to experimental/MARVEL energies. 
+
+- 
