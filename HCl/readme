@@ -1,1 +1,99 @@
 The master pipeline file is run_all.sh
+
+prompt
+Now I would like to test this procure for HCL. In this case, we do not have MARVEL data in the form of the Duo fitting input. Instead I suggest using the Exomol states file energies 1H-35Cl__HITRAN-HCl.states 
+The QNs in this file are in two columns: 
+       1     0.000000      8       0       0
+       2  2885.976400      8       0       1
+       3  5667.982976      8       0       2
+col 4 is J
+col 5 is v. 
+This is sufficient for HCL, X1Sigma+:
+parity = e 
+State X 
+Lambda=Sigma=Omega=0
+For Weights I suggest 100/sqrt(v+1)/sqrt(J+1)
+and also use Robust 0.0001 
+Can you apply the developed scripts to HCl from the repository? Let me know if you need any extra instructions or information.
+
+
+Prompt 2
+Can I suggest some modification to the pipeline? I can see that the accuracy of the fit is not improving much. There is a strong not-very smooth dependence of residuals on v, which is not-likely to be improved within the current model. We need to improve it, either by adding more parameters, using a different form, adding new objects like BOB-rot - important for hihg J
+Can I suggest we try all of them.
+1. Increase the number of the potential parameters:
+poten X
+name "X1Sigma+"
+lambda 0
+symmetry +
+mult 1
+type EMO
+values
+V0       0.00000000000000E+00
+RE       1.27453132950929E+00 fit
+DE       3.79992367367012E+04 fit
+RREF     -1.00000000000000E+00
+PL       6.00000000000000E+00
+PR       6.00000000000000E+00
+NL       4.00000000000000E+00
+NR       10  
+B0       1.83901011643112E+00 fit
+B1       -2.55683840427941E-02 fit
+B2       2.06318485638393E-01 fit
+B3       6.03285266761298E-01 fit
+B4       5.22255555203364E-01 fit
+B5       -1.95439799343489E+01 fit
+B6       5.48475196456636E+01 fit
+B7       -5.85780741854007E+01 fit
+B8       2.23728059129318E+01 fit
+B9 0 fit
+B10  fit 
+end
+2. Try the following form (example from KH)
+poten X
+name "X1Sigma+"
+symmetry +
+lambda 0
+mult 1.0
+type MLJ
+values
+TE           0.00000000000000E+00
+RE           2.21709122073475e+00 
+AE           1.47797367711541e+04 
+R12          6.27690470933541E+00
+DELTA        2.25000000000000E+00
+PHIINF       9.96171438000000E-01
+N            6.00000000000000E+00
+PHI0        -3.82719893326121e+00 
+PHI1         7.36971497152753e-01 
+PHI2         6.46458869449744e-01 
+PHI3         2.99682991869189e+00 
+PHI4        -3.40974414755151e+00 
+PHI5        -4.94327411933434e+00 
+PHI6         1.63333285333761e+01 
+PHI7         6.96411126435922e+00 
+PHI8        -1.80312813282475e+01 
+PHI9         0.00000000000000E+00
+PHI10        0.00000000000000E+00
+PHI11        0.00000000000000E+00
+PHI12        0.00000000000000E+00
+PHI13        0.00000000000000E+00
+end
+For HCl, the appropriate parameters might be in the literature  - can you check? 
+3. Add bob-rot (example from KH)
+bob-rot X
+name "<X|BR|X>"
+lambda 0
+spin 0
+type polynom_decay_24
+values (values not done)
+RE           2.24000000000000E+00
+BETA         8.00000000000000E-01
+GAMMA        2.00000000000000E-02
+P            6.00000000000000E+00
+B0          -2.12588396604902e-02
+B1          -1.89616630725984e-02
+B2           1.56626471586272e-01
+B3           0.0
+BINF         0.00000000000000E+00
+end
+Can you push the accuracy to its limit but keeping the shapes of PEC and BOB-rot sensible?

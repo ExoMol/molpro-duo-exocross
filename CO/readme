@@ -4,4 +4,4 @@ The simple master pipeline file is run_all.sh. This is to generate an ab initio 
 
 2. Refining the ab initio model by fitting to experimental/MARVEL energies. 
 
-- 
+In my repository molpro-duo-exocross. folder CO, I have created instructions fit EMO PEC of CO to the ab initio data first and the to refine to experiment, seee readme.txt. Now I would like to create a python pipeline to make this process automatic. The associated input files are in sample_outputs. This folder also contains a Duo executable for DOS, was well as it can be taken from my github version, whatever is easier. Please use now these  instructions  to develop a fully automatic pipeline that we could then use it for other molecules of similar complexity  - single eletronic state X1Sigma+.
