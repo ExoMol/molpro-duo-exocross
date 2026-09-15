@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "template": "sample_outputs/CO_duo_fit_01.inp",
+  "output_directory": "pecfit_runs",
+  "jmax_schedule": [10, 40, "all"],
+  "vmax": 80,
+  "experimental_de_cm": null,
+  "experiment": {
+    "target_metric": "rms_cm",
+    "target_rms_cm": 0.1,
+    "max_right_order": 10
+  }
+}

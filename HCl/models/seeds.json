@@ -1,0 +1,20 @@
+{
+  "seed": "../pecfit_runs/progress.json: last accepted EMO8 parameters",
+  "B9": 0,
+  "B10": 0,
+  "mlj_seed": "degree-8 linear projection of EMO exponent over 0.7..3.5 Angstrom; PHI9/PHI10 initially zero",
+  "mlj_switch": {
+    "R12_angstrom": 4.0,
+    "DELTA_inverse_angstrom": 2.25,
+    "origin": "numerical seed choices, not HCl literature fit parameters"
+  },
+  "C6_seed_atomic_units": 23.41,
+  "C6_reference": "https://arxiv.org/abs/2208.07895, section II, citing Zatsarinny et al. (2009)",
+  "PHIINF_seed": 0.5301879726510036,
+  "C6_fixed_during_fit": false,
+  "literature": [
+    "https://doi.org/10.1006/jmsp.2000.8155",
+    "https://doi.org/10.1016/j.jqsrt.2014.08.028"
+  ],
+  "literature_note": "HCl MLJ/BOB analysis identified (2000); complete numerical table not accessible. 2015 uses MLR3, not Duo MLJ. No KH potential coefficients used."
+}

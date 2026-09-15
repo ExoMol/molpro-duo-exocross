@@ -1,0 +1,6 @@
+{
+  "source_parameters_file": "C:\\sergei\\programs\\molpro-duo-exocross\\HCl\\pecfit_runs\\bound_mlj10\\progress.json",
+  "source_sha256": "65c68d408daff55d1afb4e382da369e4513254f2f376fb043dd7391994184bca",
+  "calibration_cutoff_cm": 35000.0,
+  "reason": "Independent final native-Duo validation of an optimized checkpoint"
+}

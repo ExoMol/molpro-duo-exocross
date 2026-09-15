@@ -1,0 +1,1661 @@
+{
+  "status": "needs_review",
+  "solver": "localized_sinc_dvr",
+  "robust": 0.0,
+  "experiment": {
+    "count": 710,
+    "positive_weight_count": 710,
+    "rms_cm": 1.835906712144807,
+    "weighted_rms_cm": 1.147426464437073,
+    "max_abs_cm": 29.420933667279314
+  },
+  "bound_experiment": {
+    "count": 672,
+    "positive_weight_count": 672,
+    "rms_cm": 0.18657766424574224,
+    "weighted_rms_cm": 0.1275219009410009,
+    "max_abs_cm": 1.7954951506544603
+  },
+  "quasibound_count": 38,
+  "fit_below_cm": 35000.0,
+  "calibration": {
+    "count": 649,
+    "positive_weight_count": 649,
+    "rms_cm": 0.08387541928681139,
+    "weighted_rms_cm": 0.06363345119940145,
+    "max_abs_cm": 0.5983056736222352
+  },
+  "calibration_count": 649,
+  "shape": {
+    "ok": true,
+    "reason": "monotone single well",
+    "violating_intervals": 0,
+    "range_angstrom": [
+      0.5,
+      12.0
+    ],
+    "points": 2002,
+    "maximum_potential_cm": 650734.884718432,
+    "bob": {
+      "ok": true,
+      "present": true,
+      "max_abs": 0.03885052979285535,
+      "max_slope_per_angstrom": 0.11515538823085471,
+      "turning_points": 4,
+      "raw_turning_points": 6,
+      "minimum_rotational_factor": 0.9999933377904664,
+      "limits": {
+        "max_abs": 0.05,
+        "max_slope": 0.2,
+        "max_turns": 4,
+        "turning_tolerance": 1e-06
+      },
+      "reason": "bounded smooth correction"
+    },
+    "centrifugal": {
+      "ok": true,
+      "range_angstrom": [
+        0.5,
+        12.0
+      ],
+      "failures": [],
+      "criterion": "one centrifugal well and at most one barrier for each observed J"
+    }
+  },
+  "basis_converged": false,
+  "basis_max_delta_cm": 30.667358216276625,
+  "bound_basis_converged": true,
+  "grid_checks": [
+    {
+      "grid": [
+        0.6,
+        6.3,
+        601
+      ],
+      "max_delta_cm": 20.796663102621096,
+      "max_bound_delta_cm": 4.452886059880257e-09
+    },
+    {
+      "grid": [
+        0.55,
+        6.8,
+        701
+      ],
+      "max_delta_cm": 30.667358216276625,
+      "max_bound_delta_cm": 4.6711647883057594e-09
+    }
+  ],
+  "basis_tolerance_cm": 0.0001,
+  "quality_pass": false,
+  "target_metric": "weighted_rms_cm",
+  "target_cm": 0.0001,
+  "grid": [
+    0.65,
+    5.8,
+    501
+  ],
+  "parameters": {
+    "V0": 0.0,
+    "RE": 1.27454677,
+    "DE": 37185.585854278295,
+    "RREF": -1.0,
+    "PL": 2.0,
+    "PR": 2.0,
+    "NL": 4.0,
+    "NR": 14.0,
+    "B0": 1.8696370681217398,
+    "B1": 0.01696348313904077,
+    "B2": 0.38984899838092024,
+    "B3": 0.43155555980018456,
+    "B4": 0.7877095207269331,
+    "B5": -0.039469857283373044,
+    "B6": -0.9812299137259824,
+    "B7": -7.088526074008336,
+    "B8": 68.9358084627513,
+    "B9": -134.8021834503496,
+    "B10": 77.6222452336226,
+    "B11": 16.606962899182527,
+    "B12": -2.3062215253087466,
+    "B13": -18.379583639374474,
+    "B14": -3.062516336195062,
+    "BR_RE": 1.27454659625716,
+    "BR_BETA": 0.8,
+    "BR_GAMMA": 0.02,
+    "BR_P": 6.0,
+    "BR_B0": -1.689650531802086e-06,
+    "BR_B1": -0.0001306588232983146,
+    "BR_B2": 0.0014714629417812224,
+    "BR_B3": 0.0015284137196357695,
+    "BR_B4": 0.021197697054482746,
+    "BR_B5": -0.36903377966150097,
+    "BR_B6": 0.7900763296318378,
+    "BR_BINF": 0.0
+  },
+  "Jmax": 41,
+  "zero_point_energy_cm": 1483.9402000822904,
+  "native_max_delta_cm": 1.5024852473288774e-08,
+  "minimum_inner_probability": 0.5023533780317122,
+  "fit_history": [
+    {
+      "evaluation": 1,
+      "physical": true,
+      "objective": 3.631059032806765,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.10885293658022124,
+      "weighted_rms_cm": 0.07479554144910903,
+      "max_abs_cm": 0.818970310559962
+    },
+    {
+      "evaluation": 2,
+      "physical": true,
+      "objective": 2.6560472719010986,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08407400369591649,
+      "weighted_rms_cm": 0.06396753923969833,
+      "max_abs_cm": 0.5974788380117388
+    },
+    {
+      "evaluation": 3,
+      "physical": true,
+      "objective": 2.628274821804354,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08387541929721855,
+      "weighted_rms_cm": 0.06363345120731705,
+      "max_abs_cm": 0.5983056738987216
+    },
+    {
+      "evaluation": 4,
+      "physical": false,
+      "objective": 2.5130526802987916,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08171077376059893,
+      "weighted_rms_cm": 0.062213283114703755,
+      "max_abs_cm": 0.5831931643479038
+    },
+    {
+      "evaluation": 5,
+      "physical": false,
+      "objective": 2.500729356821323,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08165508095147804,
+      "weighted_rms_cm": 0.06205790681920007,
+      "max_abs_cm": 0.5848087171834777
+    },
+    {
+      "evaluation": 6,
+      "physical": false,
+      "objective": 12620714.043748219,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.07784905347355685,
+      "weighted_rms_cm": 0.061189807974833,
+      "max_abs_cm": 0.5169242010379094
+    },
+    {
+      "evaluation": 7,
+      "physical": false,
+      "objective": 1297048.025353792,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0805418446572383,
+      "weighted_rms_cm": 0.06135841074721555,
+      "max_abs_cm": 0.5783105606824392
+    },
+    {
+      "evaluation": 8,
+      "physical": false,
+      "objective": 51868.216945949636,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08125893467626509,
+      "weighted_rms_cm": 0.06185520154724686,
+      "max_abs_cm": 0.5836437523757922
+    },
+    {
+      "evaluation": 9,
+      "physical": false,
+      "objective": 2.496214822035062,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08154287308285403,
+      "weighted_rms_cm": 0.062002630151853255,
+      "max_abs_cm": 0.5844548275636043
+    },
+    {
+      "evaluation": 10,
+      "physical": false,
+      "objective": 18778.771940062703,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.081342450425813,
+      "weighted_rms_cm": 0.06190291452312425,
+      "max_abs_cm": 0.5841369587942609
+    },
+    {
+      "evaluation": 11,
+      "physical": false,
+      "objective": 2.494089287154514,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08149036526816131,
+      "weighted_rms_cm": 0.0619766007177311,
+      "max_abs_cm": 0.5844338642054936
+    },
+    {
+      "evaluation": 12,
+      "physical": false,
+      "objective": 6817.923256700227,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08138930560291878,
+      "weighted_rms_cm": 0.061927001542238215,
+      "max_abs_cm": 0.5843187874197611
+    },
+    {
+      "evaluation": 13,
+      "physical": false,
+      "objective": 17.626639370316692,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146457385067282,
+      "weighted_rms_cm": 0.06196392417819505,
+      "max_abs_cm": 0.5844254281182657
+    },
+    {
+      "evaluation": 14,
+      "physical": false,
+      "objective": 2.4938289760138845,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08148416907816428,
+      "weighted_rms_cm": 0.0619734118643322,
+      "max_abs_cm": 0.58443891472416
+    },
+    {
+      "evaluation": 15,
+      "physical": false,
+      "objective": 2.493311876649332,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814710515734506,
+      "weighted_rms_cm": 0.061967075607587324,
+      "max_abs_cm": 0.584431077739282
+    },
+    {
+      "evaluation": 16,
+      "physical": false,
+      "objective": 405.2060173463832,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08144524627442591,
+      "weighted_rms_cm": 0.061954557622242404,
+      "max_abs_cm": 0.5844137125022826
+    },
+    {
+      "evaluation": 17,
+      "physical": false,
+      "objective": 17.917505185111878,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146455807441082,
+      "weighted_rms_cm": 0.061963927758969264,
+      "max_abs_cm": 0.5844281976824277
+    },
+    {
+      "evaluation": 18,
+      "physical": false,
+      "objective": 3.0318724619986788,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146943948142338,
+      "weighted_rms_cm": 0.06196628742769188,
+      "max_abs_cm": 0.5844310227475944
+    },
+    {
+      "evaluation": 19,
+      "physical": false,
+      "objective": 2.4932957911292446,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147067477326891,
+      "weighted_rms_cm": 0.06196687847169686,
+      "max_abs_cm": 0.5844317888695514
+    },
+    {
+      "evaluation": 20,
+      "physical": false,
+      "objective": 2.705592873509917,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146976965022765,
+      "weighted_rms_cm": 0.06196648422142465,
+      "max_abs_cm": 0.5844299027157831
+    },
+    {
+      "evaluation": 21,
+      "physical": false,
+      "objective": 2.4984094775651204,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.081470412140492,
+      "weighted_rms_cm": 0.0619667798396466,
+      "max_abs_cm": 0.5844308380255825
+    },
+    {
+      "evaluation": 22,
+      "physical": false,
+      "objective": 2.493293780935626,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147059183959987,
+      "weighted_rms_cm": 0.06196685379544181,
+      "max_abs_cm": 0.5844313476700336
+    },
+    {
+      "evaluation": 23,
+      "physical": false,
+      "objective": 2.494918941072593,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147046505542786,
+      "weighted_rms_cm": 0.061966804494458516,
+      "max_abs_cm": 0.5844308984305826
+    },
+    {
+      "evaluation": 24,
+      "physical": false,
+      "objective": 2.493292776525975,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147055646015285,
+      "weighted_rms_cm": 0.061966841469478416,
+      "max_abs_cm": 0.5844311763576115
+    },
+    {
+      "evaluation": 25,
+      "physical": false,
+      "objective": 2.494364956743279,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147048838692375,
+      "weighted_rms_cm": 0.06196681680422091,
+      "max_abs_cm": 0.5844304720521905
+    },
+    {
+      "evaluation": 26,
+      "physical": false,
+      "objective": 2.493299524602781,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147054140153853,
+      "weighted_rms_cm": 0.06196683529697642,
+      "max_abs_cm": 0.5844310229367693
+    },
+    {
+      "evaluation": 27,
+      "physical": false,
+      "objective": 2.4932926510486655,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147055420233826,
+      "weighted_rms_cm": 0.06196683992963385,
+      "max_abs_cm": 0.584431166149443
+    },
+    {
+      "evaluation": 28,
+      "physical": false,
+      "objective": 2.4932925422247165,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147054947532927,
+      "weighted_rms_cm": 0.061966836832997564,
+      "max_abs_cm": 0.5844310822794796
+    },
+    {
+      "evaluation": 29,
+      "physical": false,
+      "objective": 2.4932921485356045,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147053590577992,
+      "weighted_rms_cm": 0.06196683376249339,
+      "max_abs_cm": 0.5844307837760425
+    },
+    {
+      "evaluation": 30,
+      "physical": false,
+      "objective": 2.493291646360647,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147049573631945,
+      "weighted_rms_cm": 0.06196682759954742,
+      "max_abs_cm": 0.5844302800760488
+    },
+    {
+      "evaluation": 31,
+      "physical": false,
+      "objective": 2.4932906424686183,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147041625724409,
+      "weighted_rms_cm": 0.06196681527954084,
+      "max_abs_cm": 0.5844293287445907
+    },
+    {
+      "evaluation": 32,
+      "physical": false,
+      "objective": 2.49328863609363,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08147026078274891,
+      "weighted_rms_cm": 0.061966790649118,
+      "max_abs_cm": 0.5844275728959474
+    },
+    {
+      "evaluation": 33,
+      "physical": false,
+      "objective": 2.4932846222479803,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814699759587881,
+      "weighted_rms_cm": 0.06196674142898727,
+      "max_abs_cm": 0.5844245566258905
+    },
+    {
+      "evaluation": 34,
+      "physical": false,
+      "objective": 2.493282803775426,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146943234443597,
+      "weighted_rms_cm": 0.06196664313940496,
+      "max_abs_cm": 0.5844198248087196
+    },
+    {
+      "evaluation": 35,
+      "physical": false,
+      "objective": 2.4932745986455553,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146935413941674,
+      "weighted_rms_cm": 0.06196661858076824,
+      "max_abs_cm": 0.5844184809902799
+    },
+    {
+      "evaluation": 36,
+      "physical": false,
+      "objective": 2.493270626437635,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146910846499535,
+      "weighted_rms_cm": 0.06196656950876164,
+      "max_abs_cm": 0.5844163859583205
+    },
+    {
+      "evaluation": 37,
+      "physical": false,
+      "objective": 2.493262582631991,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146871616039579,
+      "weighted_rms_cm": 0.06196647143880218,
+      "max_abs_cm": 0.5844132877609809
+    },
+    {
+      "evaluation": 38,
+      "physical": false,
+      "objective": 2.493246582998183,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146816369061535,
+      "weighted_rms_cm": 0.06196627573621361,
+      "max_abs_cm": 0.5844069530430716
+    },
+    {
+      "evaluation": 39,
+      "physical": false,
+      "objective": 2.4932146047250856,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814668749514122,
+      "weighted_rms_cm": 0.061965884663616896,
+      "max_abs_cm": 0.5844071557148709
+    },
+    {
+      "evaluation": 40,
+      "physical": false,
+      "objective": 2.4931508120601693,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146463034767457,
+      "weighted_rms_cm": 0.06196510480942587,
+      "max_abs_cm": 0.5844068686419632
+    },
+    {
+      "evaluation": 41,
+      "physical": false,
+      "objective": 2.4930238097081103,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08146029514167698,
+      "weighted_rms_cm": 0.06196355252649639,
+      "max_abs_cm": 0.5844092143815942
+    },
+    {
+      "evaluation": 42,
+      "physical": false,
+      "objective": 2.4927718356983015,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08145218087420593,
+      "weighted_rms_cm": 0.06196047270317398,
+      "max_abs_cm": 0.5844228219357319
+    },
+    {
+      "evaluation": 43,
+      "physical": false,
+      "objective": 2.6034397793565613,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143668099517251,
+      "weighted_rms_cm": 0.061954389215589836,
+      "max_abs_cm": 0.5844432507801685
+    },
+    {
+      "evaluation": 44,
+      "physical": false,
+      "objective": 2.4926467857991836,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08144816530980532,
+      "weighted_rms_cm": 0.061958943662088616,
+      "max_abs_cm": 0.5844291466491995
+    },
+    {
+      "evaluation": 45,
+      "physical": false,
+      "objective": 2.4923983754122623,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08144033876920552,
+      "weighted_rms_cm": 0.06195590397363066,
+      "max_abs_cm": 0.5844403053633869
+    },
+    {
+      "evaluation": 46,
+      "physical": false,
+      "objective": 5.028520177441754,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08142548520879174,
+      "weighted_rms_cm": 0.06194988558857532,
+      "max_abs_cm": 0.5844561744088423
+    },
+    {
+      "evaluation": 47,
+      "physical": false,
+      "objective": 2.4922749344226984,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143649875446386,
+      "weighted_rms_cm": 0.061954392885284475,
+      "max_abs_cm": 0.5844457023777068
+    },
+    {
+      "evaluation": 48,
+      "physical": false,
+      "objective": 6.222908403467013,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08142889587660448,
+      "weighted_rms_cm": 0.06195140309926948,
+      "max_abs_cm": 0.584429033791821
+    },
+    {
+      "evaluation": 49,
+      "physical": false,
+      "objective": 2.5698454652500486,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143438949381171,
+      "weighted_rms_cm": 0.06195364116459,
+      "max_abs_cm": 0.5844384124284261
+    },
+    {
+      "evaluation": 50,
+      "physical": false,
+      "objective": 2.4937670493069177,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143596448901903,
+      "weighted_rms_cm": 0.06195420455396645,
+      "max_abs_cm": 0.5844438106068992
+    },
+    {
+      "evaluation": 51,
+      "physical": false,
+      "objective": 2.492271113934524,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143636801652769,
+      "weighted_rms_cm": 0.06195434577016564,
+      "max_abs_cm": 0.5844453586250893
+    },
+    {
+      "evaluation": 52,
+      "physical": false,
+      "objective": 2.4922633905117655,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143622761653083,
+      "weighted_rms_cm": 0.061954251474472144,
+      "max_abs_cm": 0.5844461963497452
+    },
+    {
+      "evaluation": 53,
+      "physical": false,
+      "objective": 2.492869993717949,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143559447697875,
+      "weighted_rms_cm": 0.0619540629649704,
+      "max_abs_cm": 0.5844458293213393
+    },
+    {
+      "evaluation": 54,
+      "physical": false,
+      "objective": 2.4922595425310536,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143599542764655,
+      "weighted_rms_cm": 0.06195420432322807,
+      "max_abs_cm": 0.5844462134482455
+    },
+    {
+      "evaluation": 55,
+      "physical": false,
+      "objective": 2.49294786381986,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143577867714472,
+      "weighted_rms_cm": 0.06195411012607117,
+      "max_abs_cm": 0.584444080152025
+    },
+    {
+      "evaluation": 56,
+      "physical": false,
+      "objective": 2.4922588143564646,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143596017322581,
+      "weighted_rms_cm": 0.061954180764630315,
+      "max_abs_cm": 0.5844458001374733
+    },
+    {
+      "evaluation": 57,
+      "physical": false,
+      "objective": 2.4922556964351257,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814359051998287,
+      "weighted_rms_cm": 0.06195415720591024,
+      "max_abs_cm": 0.5844458404098987
+    },
+    {
+      "evaluation": 58,
+      "physical": false,
+      "objective": 2.4929535475737508,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143551390250406,
+      "weighted_rms_cm": 0.061954110085379835,
+      "max_abs_cm": 0.5844455732294591
+    },
+    {
+      "evaluation": 59,
+      "physical": false,
+      "objective": 2.492290837561759,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143580143827314,
+      "weighted_rms_cm": 0.061954145417890655,
+      "max_abs_cm": 0.5844459703512257
+    },
+    {
+      "evaluation": 60,
+      "physical": false,
+      "objective": 2.492256488301744,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143587849809002,
+      "weighted_rms_cm": 0.06195415426036459,
+      "max_abs_cm": 0.5844458906285581
+    },
+    {
+      "evaluation": 61,
+      "physical": false,
+      "objective": 2.4922556363477293,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143589824888847,
+      "weighted_rms_cm": 0.061954156469956216,
+      "max_abs_cm": 0.5844458524879883
+    },
+    {
+      "evaluation": 62,
+      "physical": false,
+      "objective": 2.4922556845376524,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143588775312836,
+      "weighted_rms_cm": 0.06195415498323869,
+      "max_abs_cm": 0.5844458751162165
+    },
+    {
+      "evaluation": 63,
+      "physical": false,
+      "objective": 2.49225560597948,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143589560420789,
+      "weighted_rms_cm": 0.06195415609799498,
+      "max_abs_cm": 0.584445858381514
+    },
+    {
+      "evaluation": 64,
+      "physical": false,
+      "objective": 2.4922555450008126,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143589442580869,
+      "weighted_rms_cm": 0.061954155346799454,
+      "max_abs_cm": 0.58444586971018
+    },
+    {
+      "evaluation": 65,
+      "physical": false,
+      "objective": 2.4922554251074907,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143589436231681,
+      "weighted_rms_cm": 0.061954153882384254,
+      "max_abs_cm": 0.5844458773499355
+    },
+    {
+      "evaluation": 66,
+      "physical": false,
+      "objective": 2.492255251627432,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143588560962098,
+      "weighted_rms_cm": 0.06195415094708662,
+      "max_abs_cm": 0.5844458912761183
+    },
+    {
+      "evaluation": 67,
+      "physical": false,
+      "objective": 2.4922549444339244,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814358969163893,
+      "weighted_rms_cm": 0.06195414799421376,
+      "max_abs_cm": 0.5844458815772668
+    },
+    {
+      "evaluation": 68,
+      "physical": false,
+      "objective": 2.4922552336853467,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143587074557815,
+      "weighted_rms_cm": 0.06195414210397431,
+      "max_abs_cm": 0.5844459135405486
+    },
+    {
+      "evaluation": 69,
+      "physical": false,
+      "objective": 2.4922548252100007,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143589071735949,
+      "weighted_rms_cm": 0.06195414653387283,
+      "max_abs_cm": 0.5844458956053131
+    },
+    {
+      "evaluation": 70,
+      "physical": false,
+      "objective": 2.4922558847440732,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143586070128485,
+      "weighted_rms_cm": 0.061954143581701406,
+      "max_abs_cm": 0.5844459310319507
+    },
+    {
+      "evaluation": 71,
+      "physical": false,
+      "objective": 2.492254764865077,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143588218493322,
+      "weighted_rms_cm": 0.061954145794678304,
+      "max_abs_cm": 0.5844458947394742
+    },
+    {
+      "evaluation": 72,
+      "physical": false,
+      "objective": 2.492254713379375,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143587416914541,
+      "weighted_rms_cm": 0.061954144318952784,
+      "max_abs_cm": 0.5844459108702722
+    },
+    {
+      "evaluation": 73,
+      "physical": false,
+      "objective": 2.4922545241940064,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143588442577665,
+      "weighted_rms_cm": 0.061954142846534624,
+      "max_abs_cm": 0.5844459097279469
+    },
+    {
+      "evaluation": 74,
+      "physical": false,
+      "objective": 2.492255247007198,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143585623438174,
+      "weighted_rms_cm": 0.06195413990044248,
+      "max_abs_cm": 0.5844459458458005
+    },
+    {
+      "evaluation": 75,
+      "physical": false,
+      "objective": 2.4922544641891906,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143587640919238,
+      "weighted_rms_cm": 0.06195414211157483,
+      "max_abs_cm": 0.584445911597868
+    },
+    {
+      "evaluation": 76,
+      "physical": false,
+      "objective": 2.4922545301347356,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143586403928096,
+      "weighted_rms_cm": 0.061954140631563875,
+      "max_abs_cm": 0.5844459290383384
+    },
+    {
+      "evaluation": 77,
+      "physical": false,
+      "objective": 2.4922544343908246,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814358729953261,
+      "weighted_rms_cm": 0.061954141746693406,
+      "max_abs_cm": 0.5844459126019501
+    },
+    {
+      "evaluation": 78,
+      "physical": false,
+      "objective": 2.4922543743513104,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143587096713338,
+      "weighted_rms_cm": 0.061954141006443204,
+      "max_abs_cm": 0.5844459225991159
+    },
+    {
+      "evaluation": 79,
+      "physical": false,
+      "objective": 2.492254252610625,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143587000631126,
+      "weighted_rms_cm": 0.06195413951977652,
+      "max_abs_cm": 0.584445931512164
+    },
+    {
+      "evaluation": 80,
+      "physical": false,
+      "objective": 2.4922540831093545,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814358597933676,
+      "weighted_rms_cm": 0.06195413657965295,
+      "max_abs_cm": 0.5844459492873284
+    },
+    {
+      "evaluation": 81,
+      "physical": false,
+      "objective": 2.4922537730407153,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143586923202802,
+      "weighted_rms_cm": 0.06195413364539506,
+      "max_abs_cm": 0.5844459463769454
+    },
+    {
+      "evaluation": 82,
+      "physical": false,
+      "objective": 2.4922542540910504,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143584232263773,
+      "weighted_rms_cm": 0.06195412775138377,
+      "max_abs_cm": 0.5844459824729711
+    },
+    {
+      "evaluation": 83,
+      "physical": false,
+      "objective": 2.4922536523597936,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143586295813741,
+      "weighted_rms_cm": 0.06195413216695753,
+      "max_abs_cm": 0.5844459626896423
+    },
+    {
+      "evaluation": 84,
+      "physical": false,
+      "objective": 2.492255012952347,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143583122919014,
+      "weighted_rms_cm": 0.06195412922102785,
+      "max_abs_cm": 0.5844460020889528
+    },
+    {
+      "evaluation": 85,
+      "physical": false,
+      "objective": 2.492253592845164,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143585389234184,
+      "weighted_rms_cm": 0.06195413143810255,
+      "max_abs_cm": 0.5844459625368472
+    },
+    {
+      "evaluation": 86,
+      "physical": false,
+      "objective": 2.492253489540798,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143584840159741,
+      "weighted_rms_cm": 0.06195412996167627,
+      "max_abs_cm": 0.584445977336145
+    },
+    {
+      "evaluation": 87,
+      "physical": false,
+      "objective": 2.492253231686075,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143585190831987,
+      "weighted_rms_cm": 0.06195412701399985,
+      "max_abs_cm": 0.5844459844884113
+    },
+    {
+      "evaluation": 88,
+      "physical": false,
+      "objective": 2.4922593873486836,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579863856137,
+      "weighted_rms_cm": 0.06195412111196137,
+      "max_abs_cm": 0.5844460682201316
+    },
+    {
+      "evaluation": 89,
+      "physical": false,
+      "objective": 2.4922531343884695,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143583785576303,
+      "weighted_rms_cm": 0.06195412554658628,
+      "max_abs_cm": 0.5844460043954314
+    },
+    {
+      "evaluation": 90,
+      "physical": false,
+      "objective": 2.4922528713721643,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143584270602694,
+      "weighted_rms_cm": 0.06195412260046909,
+      "max_abs_cm": 0.5844460130902007
+    },
+    {
+      "evaluation": 91,
+      "physical": false,
+      "objective": 2.49225747459469,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579423132953,
+      "weighted_rms_cm": 0.0619541167104555,
+      "max_abs_cm": 0.5844460907246685
+    },
+    {
+      "evaluation": 92,
+      "physical": false,
+      "objective": 2.4922527511683534,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143583012627616,
+      "weighted_rms_cm": 0.061954121124854156,
+      "max_abs_cm": 0.5844460323787644
+    },
+    {
+      "evaluation": 93,
+      "physical": false,
+      "objective": 2.4922525104354922,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143582560707478,
+      "weighted_rms_cm": 0.06195411817919163,
+      "max_abs_cm": 0.5844460491716745
+    },
+    {
+      "evaluation": 94,
+      "physical": false,
+      "objective": 2.4922527249243127,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814358016354751,
+      "weighted_rms_cm": 0.06195411230113507,
+      "max_abs_cm": 0.5844460948355845
+    },
+    {
+      "evaluation": 95,
+      "physical": false,
+      "objective": 2.4922524095476453,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814358190471844,
+      "weighted_rms_cm": 0.06195411671118785,
+      "max_abs_cm": 0.584446059227048
+    },
+    {
+      "evaluation": 96,
+      "physical": false,
+      "objective": 2.4922521507532758,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143582248116382,
+      "weighted_rms_cm": 0.0619541137736112,
+      "max_abs_cm": 0.5844460674125003
+    },
+    {
+      "evaluation": 97,
+      "physical": false,
+      "objective": 2.492257882908519,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143577060441214,
+      "weighted_rms_cm": 0.06195410787264042,
+      "max_abs_cm": 0.5844461511587724
+    },
+    {
+      "evaluation": 98,
+      "physical": false,
+      "objective": 2.4922520421341092,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143580888411672,
+      "weighted_rms_cm": 0.06195411228300165,
+      "max_abs_cm": 0.5844460881198756
+    },
+    {
+      "evaluation": 99,
+      "physical": false,
+      "objective": 2.492251789576769,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143581119384868,
+      "weighted_rms_cm": 0.061954109349458046,
+      "max_abs_cm": 0.5844460986481863
+    },
+    {
+      "evaluation": 100,
+      "physical": false,
+      "objective": 2.4922597634290407,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143575355607126,
+      "weighted_rms_cm": 0.06195410345785963,
+      "max_abs_cm": 0.5844461904562195
+    },
+    {
+      "evaluation": 101,
+      "physical": false,
+      "objective": 2.4922517530862516,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579581111422,
+      "weighted_rms_cm": 0.06195410787938566,
+      "max_abs_cm": 0.5844461207452696
+    },
+    {
+      "evaluation": 102,
+      "physical": false,
+      "objective": 2.492251549493662,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143580552683467,
+      "weighted_rms_cm": 0.06195410640885577,
+      "max_abs_cm": 0.5844461227534339
+    },
+    {
+      "evaluation": 103,
+      "physical": false,
+      "objective": 2.4922523166815247,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143577731166513,
+      "weighted_rms_cm": 0.0619541034529591,
+      "max_abs_cm": 0.5844461634405889
+    },
+    {
+      "evaluation": 104,
+      "physical": false,
+      "objective": 2.492251488622405,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579762379935,
+      "weighted_rms_cm": 0.06195410566317521,
+      "max_abs_cm": 0.584446126675175
+    },
+    {
+      "evaluation": 105,
+      "physical": false,
+      "objective": 2.492251546462337,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143578528991045,
+      "weighted_rms_cm": 0.061954104200864134,
+      "max_abs_cm": 0.584446146414848
+    },
+    {
+      "evaluation": 106,
+      "physical": false,
+      "objective": 2.4922514595025453,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579424101585,
+      "weighted_rms_cm": 0.06195410530675218,
+      "max_abs_cm": 0.5844461291198968
+    },
+    {
+      "evaluation": 107,
+      "physical": false,
+      "objective": 2.4922513992097484,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579200835648,
+      "weighted_rms_cm": 0.06195410456497407,
+      "max_abs_cm": 0.5844461391825462
+    },
+    {
+      "evaluation": 108,
+      "physical": false,
+      "objective": 2.492251278768486,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143579017823112,
+      "weighted_rms_cm": 0.061954103093019755,
+      "max_abs_cm": 0.5844461502420017
+    },
+    {
+      "evaluation": 109,
+      "physical": false,
+      "objective": 2.492251081724993,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143578001620717,
+      "weighted_rms_cm": 0.06195410014917958,
+      "max_abs_cm": 0.5844461704182322
+    },
+    {
+      "evaluation": 110,
+      "physical": false,
+      "objective": 2.4922505587436308,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143578463980869,
+      "weighted_rms_cm": 0.06195409427383462,
+      "max_abs_cm": 0.5844461916349246
+    },
+    {
+      "evaluation": 111,
+      "physical": false,
+      "objective": 2.492252373737484,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143575685149496,
+      "weighted_rms_cm": 0.061954082481449325,
+      "max_abs_cm": 0.5844461213782779
+    },
+    {
+      "evaluation": 112,
+      "physical": false,
+      "objective": 2.4922503174787556,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143578031504017,
+      "weighted_rms_cm": 0.061954091317951564,
+      "max_abs_cm": 0.5844462146342266
+    },
+    {
+      "evaluation": 113,
+      "physical": false,
+      "objective": 2.492253839277436,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143573241713412,
+      "weighted_rms_cm": 0.06195408541802387,
+      "max_abs_cm": 0.5844462423629011
+    },
+    {
+      "evaluation": 114,
+      "physical": false,
+      "objective": 2.4922501974304474,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143576629290135,
+      "weighted_rms_cm": 0.06195408984751973,
+      "max_abs_cm": 0.584446198270598
+    },
+    {
+      "evaluation": 115,
+      "physical": false,
+      "objective": 2.492250115111844,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143575152455039,
+      "weighted_rms_cm": 0.06195408690420166,
+      "max_abs_cm": 0.5844462121458491
+    },
+    {
+      "evaluation": 116,
+      "physical": false,
+      "objective": 2.4922497166744213,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814357591472713,
+      "weighted_rms_cm": 0.061954083959139324,
+      "max_abs_cm": 0.5844462060049409
+    },
+    {
+      "evaluation": 117,
+      "physical": false,
+      "objective": 2.4922504058854544,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143573265577536,
+      "weighted_rms_cm": 0.06195407806853599,
+      "max_abs_cm": 0.5844462500026566
+    },
+    {
+      "evaluation": 118,
+      "physical": false,
+      "objective": 2.4922495972978593,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143575340457028,
+      "weighted_rms_cm": 0.06195408249706135,
+      "max_abs_cm": 0.5844462308377842
+    },
+    {
+      "evaluation": 119,
+      "physical": false,
+      "objective": 2.4922511640080205,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143572052589505,
+      "weighted_rms_cm": 0.061954079538728876,
+      "max_abs_cm": 0.5844462736495188
+    },
+    {
+      "evaluation": 120,
+      "physical": false,
+      "objective": 2.4922495366292523,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143574390723511,
+      "weighted_rms_cm": 0.06195408175393106,
+      "max_abs_cm": 0.5844462304448825
+    },
+    {
+      "evaluation": 121,
+      "physical": false,
+      "objective": 2.4922494200308574,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143573925520459,
+      "weighted_rms_cm": 0.06195408027992098,
+      "max_abs_cm": 0.5844462452223524
+    },
+    {
+      "evaluation": 122,
+      "physical": false,
+      "objective": 2.4922491758044263,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143573677128392,
+      "weighted_rms_cm": 0.061954077334448056,
+      "max_abs_cm": 0.5844462612949428
+    },
+    {
+      "evaluation": 123,
+      "physical": false,
+      "objective": 2.492256037397626,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143568502458517,
+      "weighted_rms_cm": 0.06195407144516229,
+      "max_abs_cm": 0.5844463485991582
+    },
+    {
+      "evaluation": 124,
+      "physical": false,
+      "objective": 2.4922492323070844,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143572259889097,
+      "weighted_rms_cm": 0.06195407587278352,
+      "max_abs_cm": 0.5844462820823537
+    },
+    {
+      "evaluation": 125,
+      "physical": false,
+      "objective": 2.4922491453950975,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143573265748182,
+      "weighted_rms_cm": 0.06195407696202167,
+      "max_abs_cm": 0.5844462624081643
+    },
+    {
+      "evaluation": 126,
+      "physical": false,
+      "objective": 2.49224908703542,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143572861167238,
+      "weighted_rms_cm": 0.06195407622502299,
+      "max_abs_cm": 0.5844462725654012
+    },
+    {
+      "evaluation": 127,
+      "physical": false,
+      "objective": 2.492248965291143,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143572809163857,
+      "weighted_rms_cm": 0.06195407475622863,
+      "max_abs_cm": 0.5844462842287612
+    },
+    {
+      "evaluation": 128,
+      "physical": false,
+      "objective": 2.4922490548753964,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143571170887536,
+      "weighted_rms_cm": 0.06195407181643144,
+      "max_abs_cm": 0.5844463149551302
+    },
+    {
+      "evaluation": 129,
+      "physical": false,
+      "objective": 2.492248906979083,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143572345657235,
+      "weighted_rms_cm": 0.06195407402264079,
+      "max_abs_cm": 0.5844462893437594
+    },
+    {
+      "evaluation": 130,
+      "physical": false,
+      "objective": 2.492248785605332,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814357226724385,
+      "weighted_rms_cm": 0.061954072555630325,
+      "max_abs_cm": 0.5844463009270839
+    },
+    {
+      "evaluation": 131,
+      "physical": false,
+      "objective": 2.492248828429465,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143570693309192,
+      "weighted_rms_cm": 0.061954069602818775,
+      "max_abs_cm": 0.5844463297980838
+    },
+    {
+      "evaluation": 132,
+      "physical": false,
+      "objective": 2.4922487262135515,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143571821461604,
+      "weighted_rms_cm": 0.06195407181215178,
+      "max_abs_cm": 0.5844463051835191
+    },
+    {
+      "evaluation": 133,
+      "physical": false,
+      "objective": 2.492248604652561,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143571718487047,
+      "weighted_rms_cm": 0.06195407033927634,
+      "max_abs_cm": 0.5844463165703928
+    },
+    {
+      "evaluation": 134,
+      "physical": false,
+      "objective": 2.4922485938028283,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143570234126785,
+      "weighted_rms_cm": 0.06195406740966244,
+      "max_abs_cm": 0.5844463445027941
+    },
+    {
+      "evaluation": 135,
+      "physical": false,
+      "objective": 2.492248305207033,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143571517273895,
+      "weighted_rms_cm": 0.06195406667180713,
+      "max_abs_cm": 0.58444634177431
+    },
+    {
+      "evaluation": 136,
+      "physical": false,
+      "objective": 2.4922483742197246,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143569704323324,
+      "weighted_rms_cm": 0.06195406519264688,
+      "max_abs_cm": 0.5844463542744052
+    },
+    {
+      "evaluation": 137,
+      "physical": false,
+      "objective": 2.492248274016135,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143570936304298,
+      "weighted_rms_cm": 0.061954066289650715,
+      "max_abs_cm": 0.5844463363246177
+    },
+    {
+      "evaluation": 138,
+      "physical": false,
+      "objective": 2.492248220495553,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143570235834706,
+      "weighted_rms_cm": 0.061954065558633836,
+      "max_abs_cm": 0.5844463410248864
+    },
+    {
+      "evaluation": 139,
+      "physical": false,
+      "objective": 2.492248094996751,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143570403593683,
+      "weighted_rms_cm": 0.06195406409731824,
+      "max_abs_cm": 0.5844463537432603
+    },
+    {
+      "evaluation": 140,
+      "physical": false,
+      "objective": 2.4922490655744207,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143567887934207,
+      "weighted_rms_cm": 0.061954061146125436,
+      "max_abs_cm": 0.5844463938919944
+    },
+    {
+      "evaluation": 141,
+      "physical": false,
+      "objective": 2.4922480423170077,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143569683635837,
+      "weighted_rms_cm": 0.061954063352458504,
+      "max_abs_cm": 0.5844463583562174
+    },
+    {
+      "evaluation": 142,
+      "physical": false,
+      "objective": 2.492247914086967,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143569900498845,
+      "weighted_rms_cm": 0.06195406188147486,
+      "max_abs_cm": 0.584446369932266
+    },
+    {
+      "evaluation": 143,
+      "physical": false,
+      "objective": 2.4922489443351354,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143567308348014,
+      "weighted_rms_cm": 0.06195405893248983,
+      "max_abs_cm": 0.5844464109759429
+    },
+    {
+      "evaluation": 144,
+      "physical": false,
+      "objective": 2.492247859607616,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143569161044582,
+      "weighted_rms_cm": 0.061954061149730254,
+      "max_abs_cm": 0.5844463748289854
+    },
+    {
+      "evaluation": 145,
+      "physical": false,
+      "objective": 2.492247734033097,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143569289744783,
+      "weighted_rms_cm": 0.06195405967627292,
+      "max_abs_cm": 0.5844463863249985
+    },
+    {
+      "evaluation": 146,
+      "physical": false,
+      "objective": 2.492248585769886,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143566876277752,
+      "weighted_rms_cm": 0.06195405673458865,
+      "max_abs_cm": 0.5844464245674317
+    },
+    {
+      "evaluation": 147,
+      "physical": false,
+      "objective": 2.492247680757071,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143568597749563,
+      "weighted_rms_cm": 0.061954058926632895,
+      "max_abs_cm": 0.5844463906323654
+    },
+    {
+      "evaluation": 148,
+      "physical": false,
+      "objective": 2.4922475535988866,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.0814356880706999,
+      "weighted_rms_cm": 0.06195405746634105,
+      "max_abs_cm": 0.5844464020992746
+    },
+    {
+      "evaluation": 149,
+      "physical": false,
+      "objective": 2.4922485801247625,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143566220336038,
+      "weighted_rms_cm": 0.06195405451832262,
+      "max_abs_cm": 0.5844464416441042
+    },
+    {
+      "evaluation": 150,
+      "physical": false,
+      "objective": 2.4922474983145926,
+      "count": 649,
+      "positive_weight_count": 649,
+      "rms_cm": 0.08143568065810776,
+      "weighted_rms_cm": 0.061954056721099535,
+      "max_abs_cm": 0.5844464057081495
+    }
+  ],
+  "recommended_for": "649-level calibration domain E<=35000 cm-1; not certified for all 710 levels",
+  "source_model": "physical_emo14_polish",
+  "common_calibration_basis_max_delta_cm": 1.025910023599863e-09,
+  "delivered_input_native_delta_cm": 0.0,
+  "baseline_common_subset": {
+    "model": "emo10",
+    "status": "needs_review",
+    "rms_cm": 12.206723356555674,
+    "weighted_rms_cm": 8.247238237315766,
+    "max_abs_cm": 166.44426199999725,
+    "basis_delta_cm": 189.2548999999999,
+    "shape_ok": true,
+    "eligible": false,
+    "reason": "",
+    "calibration_count": 649,
+    "calibration_rms_cm": 5.057478446749296,
+    "calibration_weighted_rms_cm": 4.246547611810253,
+    "calibration_basis_delta_cm": 0.0,
+    "calibration_eligible": true
+  },
+  "comparison_relative_path": "../pecfit_runs/comparison/comparison.json"
+}

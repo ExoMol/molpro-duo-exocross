@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "template": "physical_emo14_bob6.inp",
+  "duo_executable": null,
+  "output_directory": "../pecfit_runs/models/physical_emo14_bob6",
+  "pec_file": "../pec.txt",
+  "states_file": "../1H-35Cl__HITRAN-HCl.states",
+  "states_j_column": 4,
+  "states_v_column": 5,
+  "states_weight_scale": 100.0,
+  "refine_only": true,
+  "pec_units": "hartree",
+  "pec_shift_minimum": true,
+  "experimental_de_cm": null,
+  "jmax_schedule": [
+    41
+  ],
+  "vmax": 100,
+  "timeout_seconds": 1800,
+  "threads": 1,
+  "abinitio": {
+    "iterations": 400,
+    "max_restarts": 4,
+    "fit_scale": 0.1,
+    "fit_factor": 10000000.0,
+    "energy_fit_factor": 1e-10,
+    "equilibrium_window_angstrom": 0.15,
+    "equilibrium_rms_limit_cm": 100,
+    "outer_rms_limit_cm": 2000,
+    "inner_max_abs_limit_cm": 100000
+  },
+  "experiment": {
+    "iterations": 30,
+    "max_restarts": 10,
+    "fit_scale": 0.1,
+    "bob_prefit": true,
+    "line_search_steps": 10,
+    "initial_fit_scale": 0.1,
+    "robust": 0.0001,
+    "polish_robust": 0.0,
+    "fit_factor": 1000000.0,
+    "abinitio_fit_factor": 1e-07,
+    "outlier_threshold_cm": 10,
+    "max_retries": 1,
+    "target_rms_cm": 0.0001,
+    "target_metric": "weighted_rms_cm",
+    "minimum_iterations": 20,
+    "stability_tolerance": 1e-07,
+    "max_right_order": 10,
+    "order_step": 2,
+    "minimum_relative_improvement": 1e-07
+  },
+  "validation": {
+    "vmax_increment": 20,
+    "npoints_increment": 100,
+    "range_extension_angstrom": [
+      0.05,
+      0.5
+    ],
+    "max_basis_refinements": 1,
+    "energy_tolerance_cm": 0.0001,
+    "shape_tolerance_cm": 0.001,
+    "bob_max_abs": 0.05,
+    "bob_max_slope": 0.2,
+    "bob_max_turns": 4,
+    "bob_turning_tolerance": 1e-06,
+    "shape_range_angstrom": [
+      0.5,
+      12.0
+    ],
+    "potential_ceiling_cm": 100000000.0,
+    "check_centrifugal_wells": true
+  }
+}
