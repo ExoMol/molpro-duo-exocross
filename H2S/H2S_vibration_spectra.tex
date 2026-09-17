@@ -1,0 +1,16 @@
+Computing vibrational cross sections using TROVE, PGOPHER and ExoCross: H2S 
+
+1. TROVE 
+
+Here we assume the PES and DMS are already provided in the TROVE form. This usually means that the dipole moment (DM) surfaces have been computed ab initio. The PES has been computed ab initio as well and then possibly empirically refined. 
+
+The calculations are in two steps:
+Step 1: Solve the vibrational Schroedinger equation (J=0), see H2S_p24_step1.inp. This generates eigenfunctions, eigenvalues and vibrational matrix elements of the dipole moment. The input file contains the potential and dipole moment parameters and other relevant details characterising PES and DMS, respectively. 
+
+Step 2: Compute a vibrational line list, see H2S_p24_step2.inp. This steps produces a State file and a Transition file (e.g. i-H2S_p24_linearised_0_0.states and i-H2S_p24_linearised_0_0.trans as defined by the keyword linelist).
+
+2. PGOPHER
+
+This step is required to generate pure rotational line lists for each types of the vibrational bands 
+
+

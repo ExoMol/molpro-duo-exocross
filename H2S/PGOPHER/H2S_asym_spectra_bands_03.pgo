@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Mixture Version="PGOPHER 11.0.142 1 Apr 2021 8:30 64 bit Unicode (Delphi 33/33)" AllowComplex="True">
+  <Species Name="Species" Jmax="120">
+    <AsymmetricMolecule Name="AsymmetricTop" PointGroup="C2v">
+      <AsymmetricManifold Name="Ground" Initial="True">
+        <AsymmetricTop Name="v=0">
+          <Parameter Name="A" Value="10.3601594"/>
+          <Parameter Name="B" Value="9.0181358"/>
+          <Parameter Name="C" Value="4.7307832"/>
+          <Parameter Name="DK" Value="0.00370326"/>
+          <Parameter Name="DJK" Value="-0.00228026"/>
+          <Parameter Name="DJ" Value="0.000652598"/>
+          <Parameter Name="deltaK" Value="-0.0001326118"/>
+          <Parameter Name="deltaJ" Value="0.000295517"/>
+        </AsymmetricTop>
+      </AsymmetricManifold>
+      <AsymmetricManifold Name="Excited">
+        <AsymmetricTop Name="v=010" Status="InActive">
+          <Parameter Name="Origin" Value="1182.576821"/>
+          <Parameter Name="A" Value="10.722078"/>
+          <Parameter Name="B" Value="9.2244497"/>
+          <Parameter Name="C" Value="4.668861"/>
+          <Parameter Name="DK" Value="0.0045579033"/>
+          <Parameter Name="DJK" Value="-0.0027348452"/>
+          <Parameter Name="DJ" Value="0.00075614258"/>
+          <Parameter Name="deltaK" Value="-1.9544E-5"/>
+          <Parameter Name="deltaJ" Value="0.0003473094"/>
+        </AsymmetricTop>
+        <AsymmetricTop Name="v=111" Status="InActive" Symmetry="B2">
+          <Parameter Name="Origin" Value="6250.70906"/>
+          <Parameter Name="A" Value="10.45856"/>
+          <Parameter Name="B" Value="9.04397"/>
+          <Parameter Name="C" Value="4.61507"/>
+          <Parameter Name="DK" Value="0.0045357"/>
+          <Parameter Name="DJK" Value="-0.0027071248"/>
+          <Parameter Name="DJ" Value="0.00072273"/>
+          <Parameter Name="deltaK" Value="-4.392E-5"/>
+          <Parameter Name="deltaJ" Value="0.00032539"/>
+        </AsymmetricTop>
+        <AsymmetricTop Name="v=210">
+          <Parameter Name="Origin" Value="6272.881"/>
+          <Parameter Name="A" Value="10.37214"/>
+          <Parameter Name="B" Value="8.96572"/>
+          <Parameter Name="C" Value="4.59355"/>
+          <Parameter Name="DK" Value="0.0041116"/>
+          <Parameter Name="DJK" Value="-0.0026217148"/>
+          <Parameter Name="DJ" Value="0.00071789942"/>
+          <Parameter Name="deltaK" Value="-2.33E-5"/>
+          <Parameter Name="deltaJ" Value="0.000336757"/>
+        </AsymmetricTop>
+        <AsymmetricTop Name="A1">
+          <Parameter Name="Origin" Value="4000"/>
+          <Parameter Name="A" Value="10.722078"/>
+          <Parameter Name="B" Value="9.2244497"/>
+          <Parameter Name="C" Value="4.668861"/>
+          <Parameter Name="DK" Value="0.0045579033"/>
+          <Parameter Name="DJK" Value="-0.0027348452"/>
+          <Parameter Name="DJ" Value="0.00075614258"/>
+          <Parameter Name="deltaK" Value="-1.9544E-5"/>
+          <Parameter Name="deltaJ" Value="0.0003473094"/>
+        </AsymmetricTop>
+      </AsymmetricManifold>
+      <TransitionMoments Bra="Excited" Ket="Ground">
+        <CartesianTransitionMoment Bra="v=010" Ket="v=0">
+          <Parameter Name="Strength" Value="0"/>
+        </CartesianTransitionMoment>
+        <CartesianTransitionMoment Axis="b" Bra="v=111" Ket="v=0">
+          <Parameter Name="Strength" Value="0"/>
+        </CartesianTransitionMoment>
+        <CartesianTransitionMoment Bra="v=210" Ket="v=0">
+          <Parameter Name="Strength" Value="0"/>
+        </CartesianTransitionMoment>
+        <CartesianTransitionMoment Bra="A1" Ket="v=0"/>
+      </TransitionMoments>
+    </AsymmetricMolecule>
+  </Species>
+  <Parameter Name="Gaussian" Value="0.002"/>
+  <Parameter Name="Lorentzian" Value="0.05"/>
+  <Parameter Name="Fmin" Value="-17366.5733240959"/>
+  <Parameter Name="Fmax" Value="19728.1408445832"/>
+  <FormSettings Name="ConstantsWindow" ActiveObject="AsymmetricTop: Species - AsymmetricTop - Excited - v=210"/>
+  <FormSettings Name="StatesWindow" Symmetry="E+"/>
+</Mixture>

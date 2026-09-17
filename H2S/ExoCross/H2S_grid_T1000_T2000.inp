@@ -1,0 +1,29 @@
+temperature-list
+  1000
+  2000
+end
+
+Range 0 10000
+
+Npoints 10001
+absorption
+Symmetry C2v(M)
+Nirreps = 4
+
+QN
+  SYMMETRY 9
+END
+
+PROFILES
+  1000 A1 profile_H2S_A1_T1000K.prof
+  2000 A1 profile_H2S_A1_T2000K.prof
+  1000 B2 profile_H2S_B2_T1000K.prof
+  2000 B2 profile_H2S_B2_T2000K.prof
+END
+
+cutoff 1000
+NPROCS 4
+NRAM 10000
+output H2S_grid_T1000_T2000
+States i-H2S_p24_linearised_0_0.states
+Transitions i-H2S_p24_linearised_0_0.trans

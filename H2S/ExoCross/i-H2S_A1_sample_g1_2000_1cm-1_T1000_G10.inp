@@ -1,0 +1,29 @@
+
+mem 190.0 gb
+
+Temperature 1000
+Range 0 10000
+
+npoints  10000
+
+cutoff 1000
+
+(abundance)
+
+absorption 
+gaussian
+
+hwhm 10
+
+output i-H2S_A1_sample_g1_2000_1cm-1_T1000_G10
+
+NRAM 1000000
+
+NPROCS 4
+
+verbose 4
+
+States H2S_A1_sample.states
+
+transitions H2S_A1_sample.trans
+
