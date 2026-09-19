@@ -1,0 +1,82 @@
+[
+  {
+    "round": 1,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4499242174246395,
+    "rms_cm": 0.4504973003465683,
+    "marked_count": 0,
+    "objective": 3407.1929932425282,
+    "accepted": true
+  },
+  {
+    "round": 2,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4499648060331903,
+    "rms_cm": 0.4505432118649349,
+    "marked_count": 0,
+    "objective": 3368.3817531229856,
+    "accepted": true
+  },
+  {
+    "round": 3,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4500157714022867,
+    "rms_cm": 0.45059823267611004,
+    "marked_count": 0,
+    "objective": 3337.7614582109477,
+    "accepted": true
+  },
+  {
+    "round": 4,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4500738163732013,
+    "rms_cm": 0.45065947322053096,
+    "marked_count": 0,
+    "objective": 3311.207650400972,
+    "accepted": true
+  },
+  {
+    "round": 5,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4501406591945668,
+    "rms_cm": 0.4507290246613534,
+    "marked_count": 0,
+    "objective": 3285.746379374908,
+    "accepted": true
+  },
+  {
+    "round": 6,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4502202805727384,
+    "rms_cm": 0.45081121938384183,
+    "marked_count": 0,
+    "objective": 3260.036770004073,
+    "accepted": true
+  },
+  {
+    "round": 7,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.45030191031865163,
+    "rms_cm": 0.4508952767199791,
+    "marked_count": 0,
+    "objective": 3236.8826103776732,
+    "accepted": true
+  },
+  {
+    "round": 8,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4503732841853428,
+    "rms_cm": 0.45096877830000587,
+    "marked_count": 0,
+    "objective": 3217.6955421223647,
+    "accepted": true
+  }
+]

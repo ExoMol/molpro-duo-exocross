@@ -1,0 +1,212 @@
+{
+  "repaired_original": {
+    "all": {
+      "count": 1840,
+      "positive_weight_count": 1828,
+      "rms_cm": 20.153385751415517,
+      "weighted_rms_cm": 20.153385751415517,
+      "median_abs_cm": 0.2503239260367991,
+      "p90_abs_cm": 38.743132259828144,
+      "p95_abs_cm": 52.542889234092684,
+      "max_abs_cm": 78.50614070821939,
+      "above_1_cm": 694,
+      "above_2_cm": 658
+    },
+    "by_state": {
+      "1": {
+        "count": 731,
+        "positive_weight_count": 731,
+        "rms_cm": 31.861287458155672,
+        "weighted_rms_cm": 31.861287458155672,
+        "median_abs_cm": 19.190692836575863,
+        "p90_abs_cm": 55.76185000364876,
+        "p95_abs_cm": 64.40392319305965,
+        "max_abs_cm": 78.50614070821939,
+        "above_1_cm": 686,
+        "above_2_cm": 652
+      },
+      "2": {
+        "count": 1109,
+        "positive_weight_count": 1097,
+        "rms_cm": 0.5962784213116271,
+        "weighted_rms_cm": 0.5962784213116271,
+        "median_abs_cm": 0.15035129823809257,
+        "p90_abs_cm": 0.30853193913353594,
+        "p95_abs_cm": 0.43001852933812224,
+        "max_abs_cm": 11.631277582171606,
+        "above_1_cm": 8,
+        "above_2_cm": 6
+      }
+    }
+  },
+  "barrier_seed": {
+    "all": {
+      "count": 1840,
+      "positive_weight_count": 1828,
+      "rms_cm": 0.5087954601087135,
+      "weighted_rms_cm": 0.5087954601087135,
+      "median_abs_cm": 0.15353738484918722,
+      "p90_abs_cm": 0.43189820945699464,
+      "p95_abs_cm": 0.6105031667226284,
+      "max_abs_cm": 11.61396539609268,
+      "above_1_cm": 16,
+      "above_2_cm": 6
+    },
+    "by_state": {
+      "1": {
+        "count": 731,
+        "positive_weight_count": 731,
+        "rms_cm": 0.14053039697603117,
+        "weighted_rms_cm": 0.14053039697603117,
+        "median_abs_cm": 0.08319803211088583,
+        "p90_abs_cm": 0.2479396797634763,
+        "p95_abs_cm": 0.29016822034282086,
+        "max_abs_cm": 0.3751010446803775,
+        "above_1_cm": 0,
+        "above_2_cm": 0
+      },
+      "2": {
+        "count": 1109,
+        "positive_weight_count": 1097,
+        "rms_cm": 0.6466963574499501,
+        "weighted_rms_cm": 0.6466963574499501,
+        "median_abs_cm": 0.20372843598306645,
+        "p90_abs_cm": 0.561961573694134,
+        "p95_abs_cm": 0.7431163919143728,
+        "max_abs_cm": 11.61396539609268,
+        "above_1_cm": 16,
+        "above_2_cm": 6
+      }
+    }
+  },
+  "ordinary_fit": {
+    "all": {
+      "count": 1840,
+      "positive_weight_count": 1828,
+      "rms_cm": 0.45015665392518894,
+      "weighted_rms_cm": 0.45015665392518894,
+      "median_abs_cm": 0.018714531528530642,
+      "p90_abs_cm": 0.1555090569112508,
+      "p95_abs_cm": 0.2363033197048934,
+      "max_abs_cm": 11.749415236641653,
+      "above_1_cm": 7,
+      "above_2_cm": 6
+    },
+    "by_state": {
+      "1": {
+        "count": 731,
+        "positive_weight_count": 731,
+        "rms_cm": 0.0073539566389955804,
+        "weighted_rms_cm": 0.00735395663899558,
+        "median_abs_cm": 0.004017040590952092,
+        "p90_abs_cm": 0.012138385201978963,
+        "p95_abs_cm": 0.013770329819180915,
+        "max_abs_cm": 0.02884610027558665,
+        "above_1_cm": 0,
+        "above_2_cm": 0
+      },
+      "2": {
+        "count": 1109,
+        "positive_weight_count": 1097,
+        "rms_cm": 0.5810657537133294,
+        "weighted_rms_cm": 0.5810657537133294,
+        "median_abs_cm": 0.05768343016097788,
+        "p90_abs_cm": 0.21598434645129594,
+        "p95_abs_cm": 0.2877453298366163,
+        "max_abs_cm": 11.749415236641653,
+        "above_1_cm": 7,
+        "above_2_cm": 6
+      }
+    }
+  },
+  "selected": {
+    "all": {
+      "count": 1840,
+      "positive_weight_count": 1828,
+      "rms_cm": 0.4512437750764847,
+      "weighted_rms_cm": 0.4512437750764847,
+      "median_abs_cm": 0.010593063081614673,
+      "p90_abs_cm": 0.09082018970584611,
+      "p95_abs_cm": 0.13616318145395778,
+      "max_abs_cm": 11.785176332610718,
+      "above_1_cm": 7,
+      "above_2_cm": 6
+    },
+    "by_state": {
+      "1": {
+        "count": 731,
+        "positive_weight_count": 731,
+        "rms_cm": 0.002671572697390302,
+        "weighted_rms_cm": 0.002671572697390302,
+        "median_abs_cm": 0.0012998759657421033,
+        "p90_abs_cm": 0.004333808552928531,
+        "p95_abs_cm": 0.004986247415217804,
+        "max_abs_cm": 0.018165159436648537,
+        "above_1_cm": 0,
+        "above_2_cm": 0
+      },
+      "2": {
+        "count": 1109,
+        "positive_weight_count": 1097,
+        "rms_cm": 0.5824960195731556,
+        "weighted_rms_cm": 0.5824960195731557,
+        "median_abs_cm": 0.034674478774832096,
+        "p90_abs_cm": 0.12466069198708282,
+        "p95_abs_cm": 0.17505569883069264,
+        "max_abs_cm": 11.785176332610718,
+        "above_1_cm": 7,
+        "above_2_cm": 6
+      }
+    }
+  },
+  "selected_calculation": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\convergence\\box8",
+  "shape": {
+    "ok": true,
+    "range_angstrom": [
+      0.7,
+      1000
+    ],
+    "fields": {
+      "1": {
+        "ok": true,
+        "extrema": [
+          [
+            1.6548399999999999,
+            0.03809012492166177,
+            "min"
+          ]
+        ],
+        "value_at_1000": 55564.02471
+      },
+      "2": {
+        "ok": true,
+        "extrema": [
+          [
+            1.649,
+            43950.02026576482,
+            "min"
+          ],
+          [
+            2.5542,
+            61154.93222419802,
+            "max"
+          ],
+          [
+            4.92378,
+            55546.36869138418,
+            "min"
+          ]
+        ],
+        "value_at_1000": 55564.02470999992
+      },
+      "('L+', 2, 1)": {
+        "ok": true,
+        "max_abs_analytic": 2.42033992384206
+      },
+      "('BOBROT', 1, 1)": {
+        "ok": true,
+        "max_abs": 0.0009132566682717355
+      }
+    }
+  }
+}

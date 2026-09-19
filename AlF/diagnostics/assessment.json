@@ -1,0 +1,40 @@
+{
+  "count": 1834,
+  "positive_weight_count": 1822,
+  "rms_cm": 0.45158420463456106,
+  "weighted_rms_cm": 0.4509957295212156,
+  "max_abs_cm": 11.785176332610718,
+  "assignment_mismatches": 0,
+  "marked_count": 0,
+  "unmatched_positive_weight_count": 0,
+  "state_v_mismatches": 0,
+  "zero_duo_weight_count": 0,
+  "inactive_unknown_state_rows": [],
+  "by_state": {
+    "1": {
+      "count": 731,
+      "positive_weight_count": 731,
+      "rms_cm": 0.002671572697390302,
+      "weighted_rms_cm": 0.002671572697390302,
+      "max_abs_cm": 0.018165159436648537,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0
+    },
+    "2": {
+      "count": 1103,
+      "positive_weight_count": 1091,
+      "rms_cm": 0.5835761099848401,
+      "weighted_rms_cm": 0.5821758210852741,
+      "max_abs_cm": 11.785176332610718,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0
+    }
+  },
+  "energy_precision": "native 12 decimal places"
+}

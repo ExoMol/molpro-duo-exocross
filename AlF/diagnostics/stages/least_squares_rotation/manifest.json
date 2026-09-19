@@ -1,0 +1,23 @@
+{
+  "input": "AlF_refinement\\rotation_seed.inp",
+  "duo": "C:\\sergei\\programs\\Duo\\build\\ifx\\duo.exe",
+  "output": "AlF_refinement\\runs\\least_squares_rotation",
+  "jmax": 98,
+  "fit_jlist": null,
+  "rounds": 5,
+  "scale": 1.0,
+  "robust": 0.0,
+  "lock": null,
+  "threads": 4,
+  "timeout": 600.0,
+  "source_sha256": "f6af2f4b0569cef56bdcbbbe69e098de4924b6b1f84e029aed2c7287d0d4b68b",
+  "code_sha256": {
+    "audit_input.py": "1a731c47f5e0c20854370b616cc4ae40c58792d57144b44ae7abc40843047916",
+    "barrier.py": "058d685a29a29afcce67fe065b96df1432ff46f7b76f79b902020fd7168e7a30",
+    "configure.py": "2c461d50601536e5e9fe46240df18d92fd4cc9bd91db2920530e698945b92374",
+    "coupled.py": "91ad4626e58747d71c0309b7704343aff310f3dd27ee9451e352a4df7467d4cc",
+    "refine.py": "a577aa8e9baaf3a2282426ba1a063f61966a0bf8405e8daff510385e83e4c801",
+    "run_native.py": "995a7c411b53bfa17d13b7b2394ac7c903ccd15ef522a51f65a796c02c7766c6",
+    "seed_model.py": "e49a394ca9a66b9fb7a72f4c1f1db69c4cbc6bcc1dcd25b836046d89f19a6839"
+  }
+}

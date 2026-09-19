@@ -1,0 +1,32 @@
+[
+  {
+    "round": 1,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4502155207083067,
+    "rms_cm": 0.4508062621300277,
+    "marked_count": 0,
+    "objective": 2966.3233491826486,
+    "accepted": true
+  },
+  {
+    "round": 2,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.45050522305495033,
+    "rms_cm": 0.45109480536980573,
+    "marked_count": 0,
+    "objective": 2729.7855488096134,
+    "accepted": true
+  },
+  {
+    "round": 3,
+    "fraction": 1.0,
+    "shape_ok": true,
+    "weighted_rms_cm": 0.4509957295206407,
+    "rms_cm": 0.4515842046339207,
+    "marked_count": 0,
+    "objective": 2499.8817479757968,
+    "accepted": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "needs_review",
+  "baseline_weighted_rms_cm": 0.4502202805727229,
+  "best_weighted_rms_cm": 0.4509957295206407,
+  "criterion": "cauchy",
+  "best_objective": 2499.8817479757968,
+  "selected_calculation": "AlF_refinement\\runs\\robust_x8\\round_03_fraction_1",
+  "validation": "Fresh full-J evaluation completed; basis convergence and mixed-state assignments require separate review."
+}

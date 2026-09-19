@@ -1,0 +1,22 @@
+{
+  "input": "AlF_refinement\\seed.inp",
+  "duo": "C:\\sergei\\programs\\Duo\\build\\ifx\\duo.exe",
+  "output": "AlF_refinement\\runs\\least_squares_01",
+  "jmax": 98,
+  "fit_jlist": null,
+  "rounds": 10,
+  "scale": 1.0,
+  "robust": 0.0,
+  "lock": null,
+  "threads": 4,
+  "timeout": 600.0,
+  "source_sha256": "85e4a629f6993812e35303d0deab8ae1058aba427791ce8b75336991861d4ab6",
+  "code_sha256": {
+    "audit_input.py": "1a731c47f5e0c20854370b616cc4ae40c58792d57144b44ae7abc40843047916",
+    "barrier.py": "e3be0deae13fed7cbed05a8ef63ed50edac9b4759d5d6c91c1f6953983dec43d",
+    "coupled.py": "91ad4626e58747d71c0309b7704343aff310f3dd27ee9451e352a4df7467d4cc",
+    "refine.py": "a577aa8e9baaf3a2282426ba1a063f61966a0bf8405e8daff510385e83e4c801",
+    "run_native.py": "995a7c411b53bfa17d13b7b2394ac7c903ccd15ef522a51f65a796c02c7766c6",
+    "seed_model.py": "e49a394ca9a66b9fb7a72f4c1f1db69c4cbc6bcc1dcd25b836046d89f19a6839"
+  }
+}

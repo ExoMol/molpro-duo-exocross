@@ -1,0 +1,15 @@
+{
+  "source": "C:\\sergei\\programs\\duo-inputs\\C2\\12C-12C__8states__Duo.inp",
+  "duplicate_groups": [
+    {
+      "original_rows": [
+        "     9.0   +        43   13393.93880     4     5     0       1       1      0.0100       0.0100       1       1",
+        "     9.0   +        43   13393.93920     4     5     0       1       1      1.4400       1.4400      12       1"
+      ],
+      "working_row": "9.0 + 43 13393.9391972414 4 5 0 1 1 1.45 0.0100 1 1"
+    }
+  ],
+  "assignment_change": "lock -7: retain state and v, permit different dominant Lambda/Sigma/Omega within 7 cm-1",
+  "retained_inactive_state22_rows": 8,
+  "note": "Weighted duplicate consolidation preserves ordinary weighted least-squares dependence on the calculated level, up to a constant. Original records remain in the source and this manifest; robust losses are not exactly invariant."
+}

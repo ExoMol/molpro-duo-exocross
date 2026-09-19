@@ -1,0 +1,201 @@
+{
+  "status": "numerically_validated",
+  "tolerance_cm": 0.0001,
+  "comparisons": {
+    "grid": {
+      "max_abs_cm": 2.0372681319713593e-10,
+      "weighted_rms_cm": 4.485185569974557e-11
+    },
+    "contraction": {
+      "max_abs_cm": 5.438778316602111e-09,
+      "weighted_rms_cm": 3.855597683421138e-10
+    },
+    "box_and_final_basis": {
+      "max_abs_cm": 1.317857822868973e-09,
+      "weighted_rms_cm": 1.1299042355180206e-10
+    }
+  },
+  "runs": {
+    "grid601": {
+      "grid_points": 601,
+      "rmax_A": 6,
+      "vmax_each_state": 60,
+      "metrics": {
+        "count": 1834,
+        "positive_weight_count": 1822,
+        "rms_cm": 0.4506567028049687,
+        "weighted_rms_cm": 0.45002367109089875,
+        "max_abs_cm": 11.756226726385648,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0,
+        "inactive_unknown_state_rows": [],
+        "by_state": {
+          "1": {
+            "count": 731,
+            "positive_weight_count": 731,
+            "rms_cm": 0.0028098228518574106,
+            "weighted_rms_cm": 0.0028098228518574106,
+            "max_abs_cm": 0.01658599628990487,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          },
+          "2": {
+            "count": 1103,
+            "positive_weight_count": 1091,
+            "rms_cm": 0.5823770592412417,
+            "weighted_rms_cm": 0.5809205699949497,
+            "max_abs_cm": 11.756226726385648,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          }
+        },
+        "energy_precision": "native 12 decimal places"
+      }
+    },
+    "grid801": {
+      "grid_points": 801,
+      "rmax_A": 6,
+      "vmax_each_state": 60,
+      "metrics": {
+        "count": 1834,
+        "positive_weight_count": 1822,
+        "rms_cm": 0.45065670280496695,
+        "weighted_rms_cm": 0.45002367109089736,
+        "max_abs_cm": 11.756226726458408,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0,
+        "inactive_unknown_state_rows": [],
+        "by_state": {
+          "1": {
+            "count": 731,
+            "positive_weight_count": 731,
+            "rms_cm": 0.002809822851825547,
+            "weighted_rms_cm": 0.002809822851825547,
+            "max_abs_cm": 0.016585996271714976,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          },
+          "2": {
+            "count": 1103,
+            "positive_weight_count": 1091,
+            "rms_cm": 0.5823770592412395,
+            "weighted_rms_cm": 0.580920569994948,
+            "max_abs_cm": 11.756226726458408,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          }
+        },
+        "energy_precision": "native 12 decimal places"
+      }
+    },
+    "basis90": {
+      "grid_points": 801,
+      "rmax_A": 6,
+      "vmax_each_state": 90,
+      "metrics": {
+        "count": 1834,
+        "positive_weight_count": 1822,
+        "rms_cm": 0.450656702804721,
+        "weighted_rms_cm": 0.4500236710906767,
+        "max_abs_cm": 11.756226726516616,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0,
+        "inactive_unknown_state_rows": [],
+        "by_state": {
+          "1": {
+            "count": 731,
+            "positive_weight_count": 731,
+            "rms_cm": 0.002809822778422397,
+            "weighted_rms_cm": 0.002809822778422397,
+            "max_abs_cm": 0.016585994304477936,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          },
+          "2": {
+            "count": 1103,
+            "positive_weight_count": 1091,
+            "rms_cm": 0.582377059241159,
+            "weighted_rms_cm": 0.5809205699948997,
+            "max_abs_cm": 11.756226726516616,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          }
+        },
+        "energy_precision": "native 12 decimal places"
+      }
+    },
+    "box8": {
+      "grid_points": 1001,
+      "rmax_A": 8,
+      "vmax_each_state": 100,
+      "metrics": {
+        "count": 1834,
+        "positive_weight_count": 1822,
+        "rms_cm": 0.4506567028041349,
+        "weighted_rms_cm": 0.4500236710901349,
+        "max_abs_cm": 11.756226726414752,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0,
+        "inactive_unknown_state_rows": [],
+        "by_state": {
+          "1": {
+            "count": 731,
+            "positive_weight_count": 731,
+            "rms_cm": 0.0028098228067093105,
+            "weighted_rms_cm": 0.0028098228067093105,
+            "max_abs_cm": 0.016585994833803852,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          },
+          "2": {
+            "count": 1103,
+            "positive_weight_count": 1091,
+            "rms_cm": 0.5823770592403101,
+            "weighted_rms_cm": 0.5809205699941091,
+            "max_abs_cm": 11.756226726414752,
+            "assignment_mismatches": 0,
+            "marked_count": 0,
+            "unmatched_positive_weight_count": 0,
+            "state_v_mismatches": 0,
+            "zero_duo_weight_count": 0
+          }
+        },
+        "energy_precision": "native 12 decimal places"
+      }
+    }
+  },
+  "selected_calculation": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\pipeline_smoke\\convergence\\box8"
+}

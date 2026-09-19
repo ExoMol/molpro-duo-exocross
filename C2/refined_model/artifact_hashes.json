@@ -1,0 +1,22 @@
+{
+  "assignment_review.csv": "7e086b3df1df53d04e8855770688c65a50371b701c1fd69867b349c2576e5525",
+  "automatic_history.json": "5028d135b6e480f2a02a2819605bd59f434f8f1765d18d4f4483ee099fb4656b",
+  "baseline_residuals.csv": "2a86837476dd57ba8be871d9144c98f5130cd43321a7dc52d9597b966869243c",
+  "basis_convergence.csv": "a35dbb95751b7ffa1744f517d07cd373ea25fcd6fc981351d77f1616db99b874",
+  "C2_refined.inp": "b1e564d941d0f1832fed1674db9d98a2d89a0e97529aca150d69f173092650cf",
+  "C2_refined_fast.inp": "3b26a1b3cc85d633638198e03d4c1f7edf59b3456f02c6ae0a59c26a4ca4ce3b",
+  "comparison.csv": "cc342d7b3b6d0e2fc41a4268666459efebf9392aa5df32028053c2a36d4abd05",
+  "fine_structure.pdf": "91295887b332962be5ade7415eef21de753f23a618e228e6c9eb55b56efafce9",
+  "fine_structure.png": "e8c7ee5f7c9a9de3dbda1f0eac923e268f90e038f33fae41a487fc59e30de6ab",
+  "native_manifest.json": "2bd5907c07bcb8d55b75fd5b51d9ecbc5b3bda96f3b81f3c86c89d25dd1c3a0b",
+  "parameters.json": "59d707fb1de5fba791f452f45a3dd3b0b98407cc7aa46ba968fa7ed18a118767",
+  "potential_curves.csv": "fabde6daf70ecf306fbf1eabfb4ffcd3eaad45ad58401d8372bf968f8fd3e3dd",
+  "potential_curves.pdf": "8cd4e7ad03b86dd807526492a34b30cc1f19adff10843501f59dc8d8f2993cc2",
+  "potential_curves.png": "20147f89d25557bf702951cb59526a10e05e08f3b752b55f009d20f5e31e4974",
+  "README.md": "50fbca2108717cf8bd0c6c55baa8d56bf2da87b42ae8c2dd1932f80c9cb25ec5",
+  "residuals.csv": "2d6057c2b27be2450575736dafc8a643949ae19bbf298cf6d2add105dedc8528",
+  "residuals_by_state.pdf": "08349d4a9437316140395e50c564b4be0a9016023f3685e03bd1c0749dfbc56f",
+  "residuals_by_state.png": "fa30b9d2c38c068a2c8ce5618fe2d5f9db60d9a840e12ae71d0b328e141368a7",
+  "shape_checks.json": "684ed0e3d5e922c76b87e0605ae47b3ca71ea2700d4998cee39a152019192935",
+  "summary.json": "846e0987c67d0ee8bfac1166f96bcff8a412c833f37c3ca6ac16ca985d3a42d9"
+}

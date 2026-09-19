@@ -1,0 +1,7 @@
+{
+  "numerical_status": "numerically_validated",
+  "scientific_status": "needs_review",
+  "reason": "Review flagged experimental discrepancies and theoretical long-range assumptions.",
+  "model": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\pipeline_smoke\\final.inp",
+  "selected_calculation": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\pipeline_smoke\\convergence\\box8"
+}

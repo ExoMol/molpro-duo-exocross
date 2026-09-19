@@ -1,0 +1,58 @@
+{
+  "C5_au": 8.07,
+  "C6_au": 75.23,
+  "B5_cm_A5": -73495.9702828864,
+  "B6_cm_A6": -362561.9198027829,
+  "dissociation_absolute_cm": 55564.02471,
+  "barrier_target_r_A": 2.5400506123343995,
+  "barrier_target_above_limit_cm": 6154.010075815,
+  "repulsive_gamma": 8.0,
+  "shape": {
+    "ok": true,
+    "range_angstrom": [
+      0.7,
+      1000
+    ],
+    "fields": {
+      "1": {
+        "ok": true,
+        "extrema": [
+          [
+            1.6548399999999999,
+            0.023689189527726723,
+            "min"
+          ]
+        ],
+        "value_at_1000": 55564.02471
+      },
+      "2": {
+        "ok": true,
+        "extrema": [
+          [
+            1.649,
+            43949.74016661613,
+            "min"
+          ],
+          [
+            2.5396,
+            61717.94933742815,
+            "max"
+          ],
+          [
+            4.9413,
+            55546.62932335377,
+            "min"
+          ]
+        ],
+        "value_at_1000": 55564.02470999992
+      },
+      "('BOBROT', 1, 1)": {
+        "ok": true,
+        "max_abs": 0.0
+      }
+    }
+  },
+  "inner_seed_max_error_cm": 12.053878243801591,
+  "seed_optimization_success": true,
+  "seed_optimization_message": "`xtol` termination condition is satisfied."
+}

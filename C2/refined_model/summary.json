@@ -1,0 +1,499 @@
+{
+  "status": "needs_review",
+  "baseline": {
+    "count": 4790,
+    "positive_weight_count": 4729,
+    "rms_cm": 0.6221838497680631,
+    "weighted_rms_cm": 0.09091178415864215,
+    "max_abs_cm": 13.470590000000811,
+    "assignment_mismatches": 70,
+    "marked_count": 9,
+    "unmatched_positive_weight_count": 3,
+    "state_v_mismatches": 1,
+    "zero_duo_weight_count": 0,
+    "inactive_unknown_state_rows": [
+      {
+        "J": 17.0,
+        "parity": "+",
+        "original_rank": 160,
+        "observed_cm": 30416.32495,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 18.0,
+        "parity": "+",
+        "original_rank": 202,
+        "observed_cm": 30420.50522,
+        "state": 22,
+        "v": 6,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 18.0,
+        "parity": "+",
+        "original_rank": 204,
+        "observed_cm": 30505.19343,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 19.0,
+        "parity": "+",
+        "original_rank": 160,
+        "observed_cm": 30505.65815,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 20.0,
+        "parity": "+",
+        "original_rank": 188,
+        "observed_cm": 30506.04472,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 20.0,
+        "parity": "+",
+        "original_rank": 202,
+        "observed_cm": 30595.39658,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 21.0,
+        "parity": "+",
+        "original_rank": 159,
+        "observed_cm": 30594.43458,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 22.0,
+        "parity": "+",
+        "original_rank": 187,
+        "observed_cm": 30592.40602,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      }
+    ],
+    "by_state": {
+      "1": {
+        "count": 183,
+        "positive_weight_count": 183,
+        "rms_cm": 0.287114941098866,
+        "weighted_rms_cm": 0.012585213853205343,
+        "max_abs_cm": 1.7980999999999767,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "2": {
+        "count": 1428,
+        "positive_weight_count": 1426,
+        "rms_cm": 0.606701150498697,
+        "weighted_rms_cm": 0.038850814615877985,
+        "max_abs_cm": 6.576360000000932,
+        "assignment_mismatches": 2,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "3": {
+        "count": 532,
+        "positive_weight_count": 532,
+        "rms_cm": 0.2732937595706346,
+        "weighted_rms_cm": 0.07912392525107133,
+        "max_abs_cm": 0.984309999999823,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "4": {
+        "count": 756,
+        "positive_weight_count": 756,
+        "rms_cm": 0.1439345470244564,
+        "weighted_rms_cm": 0.10381007955490854,
+        "max_abs_cm": 1.1021599999985483,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "5": {
+        "count": 110,
+        "positive_weight_count": 110,
+        "rms_cm": 1.152394959395436,
+        "weighted_rms_cm": 0.10076108696996226,
+        "max_abs_cm": 6.168630000000121,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "6": {
+        "count": 1401,
+        "positive_weight_count": 1342,
+        "rms_cm": 0.8992456362504971,
+        "weighted_rms_cm": 0.20702565825788471,
+        "max_abs_cm": 13.470590000000811,
+        "assignment_mismatches": 68,
+        "marked_count": 9,
+        "unmatched_positive_weight_count": 3,
+        "state_v_mismatches": 1,
+        "zero_duo_weight_count": 0
+      },
+      "7": {
+        "count": 322,
+        "positive_weight_count": 322,
+        "rms_cm": 0.08826542889431975,
+        "weighted_rms_cm": 0.03936920069170431,
+        "max_abs_cm": 0.2305500000002212,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "8": {
+        "count": 58,
+        "positive_weight_count": 58,
+        "rms_cm": 0.16048589087213738,
+        "weighted_rms_cm": 0.021527038616478103,
+        "max_abs_cm": 0.3598199999978533,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      }
+    },
+    "input_residual_cutoff_cm": 7.0,
+    "positive_weight_rows_above_cutoff": 3
+  },
+  "final": {
+    "count": 4790,
+    "positive_weight_count": 4729,
+    "rms_cm": 0.593890460214084,
+    "weighted_rms_cm": 0.07791172294428497,
+    "max_abs_cm": 13.318411574950005,
+    "assignment_mismatches": 64,
+    "marked_count": 9,
+    "unmatched_positive_weight_count": 3,
+    "state_v_mismatches": 1,
+    "zero_duo_weight_count": 0,
+    "inactive_unknown_state_rows": [
+      {
+        "J": 17.0,
+        "parity": "+",
+        "original_rank": 160,
+        "observed_cm": 30416.32495,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 18.0,
+        "parity": "+",
+        "original_rank": 202,
+        "observed_cm": 30420.50522,
+        "state": 22,
+        "v": 6,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 18.0,
+        "parity": "+",
+        "original_rank": 204,
+        "observed_cm": 30505.19343,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 19.0,
+        "parity": "+",
+        "original_rank": 160,
+        "observed_cm": 30505.65815,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 20.0,
+        "parity": "+",
+        "original_rank": 188,
+        "observed_cm": 30506.04472,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 20.0,
+        "parity": "+",
+        "original_rank": 202,
+        "observed_cm": 30595.39658,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 21.0,
+        "parity": "+",
+        "original_rank": 159,
+        "observed_cm": 30594.43458,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      },
+      {
+        "J": 22.0,
+        "parity": "+",
+        "original_rank": 187,
+        "observed_cm": 30592.40602,
+        "state": 22,
+        "v": 19,
+        "Lambda": 22.0,
+        "Sigma": 0.0,
+        "Omega": 0.0,
+        "input_weight": 0.0
+      }
+    ],
+    "by_state": {
+      "1": {
+        "count": 183,
+        "positive_weight_count": 183,
+        "rms_cm": 0.28245305456133296,
+        "weighted_rms_cm": 0.012458879631406818,
+        "max_abs_cm": 1.7323689640670636,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "2": {
+        "count": 1428,
+        "positive_weight_count": 1426,
+        "rms_cm": 0.6093199494203615,
+        "weighted_rms_cm": 0.039283056621336035,
+        "max_abs_cm": 6.633832874878863,
+        "assignment_mismatches": 2,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "3": {
+        "count": 532,
+        "positive_weight_count": 532,
+        "rms_cm": 0.25048296193971364,
+        "weighted_rms_cm": 0.06647169657287069,
+        "max_abs_cm": 0.9924300591883366,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "4": {
+        "count": 756,
+        "positive_weight_count": 756,
+        "rms_cm": 0.12708419480829533,
+        "weighted_rms_cm": 0.08197637253295088,
+        "max_abs_cm": 1.1559253674386127,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "5": {
+        "count": 110,
+        "positive_weight_count": 110,
+        "rms_cm": 1.0112123658756589,
+        "weighted_rms_cm": 0.0969453397563321,
+        "max_abs_cm": 5.2140175284494035,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "6": {
+        "count": 1401,
+        "positive_weight_count": 1342,
+        "rms_cm": 0.8471666542199374,
+        "weighted_rms_cm": 0.17688544185248695,
+        "max_abs_cm": 13.318411574950005,
+        "assignment_mismatches": 62,
+        "marked_count": 9,
+        "unmatched_positive_weight_count": 3,
+        "state_v_mismatches": 1,
+        "zero_duo_weight_count": 0
+      },
+      "7": {
+        "count": 322,
+        "positive_weight_count": 322,
+        "rms_cm": 0.06300188466543906,
+        "weighted_rms_cm": 0.014713023049506955,
+        "max_abs_cm": 0.2079481488763122,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      },
+      "8": {
+        "count": 58,
+        "positive_weight_count": 58,
+        "rms_cm": 0.15677446519169924,
+        "weighted_rms_cm": 0.021582678520533728,
+        "max_abs_cm": 0.34192277116017067,
+        "assignment_mismatches": 0,
+        "marked_count": 0,
+        "unmatched_positive_weight_count": 0,
+        "state_v_mismatches": 0,
+        "zero_duo_weight_count": 0
+      }
+    },
+    "energy_precision": "native 12 decimal places",
+    "input_residual_cutoff_cm": 7.0,
+    "positive_weight_rows_above_cutoff": 3
+  },
+  "comparison": [
+    {
+      "stage": "As supplied, J\u226435",
+      "positive_weight_count": 3520,
+      "weighted_rms_cm": 0.3358277905271951,
+      "rms_cm": 7.246298298867528,
+      "max_abs_cm": 111.86290000000008,
+      "marked_count": 4
+    },
+    {
+      "stage": "As supplied, J\u226487",
+      "positive_weight_count": 4730,
+      "weighted_rms_cm": 7.164993093302583,
+      "rms_cm": 16.727295361878337,
+      "max_abs_cm": 267.5612500000025,
+      "marked_count": 7
+    },
+    {
+      "stage": "Relaxed \u03a9 matching, unchanged curves",
+      "positive_weight_count": 4730,
+      "weighted_rms_cm": 0.1739113346485936,
+      "rms_cm": 0.9935840354528748,
+      "max_abs_cm": 53.280799999998635,
+      "marked_count": 10
+    },
+    {
+      "stage": "Duplicate corrected, unchanged curves",
+      "positive_weight_count": 4729,
+      "weighted_rms_cm": 0.09091178415864215,
+      "rms_cm": 0.6221838497680631,
+      "max_abs_cm": 13.470590000000811,
+      "marked_count": 9
+    },
+    {
+      "stage": "Refined, original numerical basis",
+      "positive_weight_count": 4729,
+      "weighted_rms_cm": 0.07791293150942848,
+      "rms_cm": 0.593906580389719,
+      "max_abs_cm": 13.31818999999814,
+      "marked_count": 9
+    },
+    {
+      "stage": "Refined, final numerical basis",
+      "positive_weight_count": 4729,
+      "weighted_rms_cm": 0.07791172294428497,
+      "rms_cm": 0.593890460214084,
+      "max_abs_cm": 13.318411574950005,
+      "marked_count": 9
+    }
+  ],
+  "original_J35_domain": {
+    "baseline": {
+      "count": 3519,
+      "weighted_rms_cm": 0.06465305096307536,
+      "rms_cm": 0.6686272620778276
+    },
+    "refined": {
+      "count": 3519,
+      "weighted_rms_cm": 0.048733779297543064,
+      "rms_cm": 0.6398257564334832
+    }
+  },
+  "weighted_rms_improvement_percent": 14.299643698194187,
+  "basis": {
+    "previous": "final_basis601",
+    "final": "final_basis701",
+    "max_positive_weight_delta_cm": 0.0020427377567102667,
+    "weighted_rms_delta_cm": 1.1836806192560562e-05,
+    "tolerance_cm": 0.0001,
+    "converged_to_tolerance": false
+  },
+  "shape_ok": true,
+  "source_sha256": "000eeea0912ec9371277ebd05b24c26ef0e043ba26c64d8efeaeabcde5cfd6d5",
+  "raw_workspace": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\C2_refinement\\runs",
+  "note": "Model-only comparison uses the same prepared observations and weights. Changes to approximate labels and duplicate preparation are separate from curve improvement."
+}

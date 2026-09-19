@@ -1,0 +1,276 @@
+{
+  "source": "C:\\sergei\\programs\\duo-inputs\\AlF\\27AlF_X1E+_A1Pi_EMO_02.inp",
+  "source_sha256": "127cf339ddf406b6ef0c94966c3c30ae363fff211a7727f37da2adf13996768e",
+  "nbsp_replaced": 11,
+  "excluded_source_markers": [
+    {
+      "line": 990,
+      "text": "-11\t+\t3\t-45192.03940\t2\t2\t-1\t0\t0\t1",
+      "reason": "negative J and energy; already skipped by native JLIST"
+    },
+    {
+      "line": 1799,
+      "text": "-70\t-\t6\t-49765.77940\t2\t5\t-1\t0\t0\t1",
+      "reason": "negative J and energy; already skipped by native JLIST"
+    }
+  ],
+  "source_rows": 1842,
+  "retained_rows": 1840,
+  "positive_weight_rows": 1828,
+  "omega_repairs": 1109,
+  "jlist_extended_from": 92,
+  "jlist_extended_to": 98,
+  "newly_included_J_gt_92": 20,
+  "Lx_assumption": "No ab initio grid supplied: remove MORPHING; retain fixed analytic Lx=1",
+  "duplicate_physical_levels": [
+    {
+      "key": [
+        2,
+        6,
+        14.0,
+        "-"
+      ],
+      "rows": [
+        {
+          "J": 14.0,
+          "parity": "-",
+          "original_rank": 7,
+          "observed_cm": 48617.4594,
+          "state": 2,
+          "v": 6,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        },
+        {
+          "J": 14.0,
+          "parity": "-",
+          "original_rank": 7,
+          "observed_cm": 48616.9194,
+          "state": 2,
+          "v": 6,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        1,
+        28.0,
+        "-"
+      ],
+      "rows": [
+        {
+          "J": 28.0,
+          "parity": "-",
+          "original_rank": 2,
+          "observed_cm": 45185.5494,
+          "state": 2,
+          "v": 1,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        },
+        {
+          "J": 28.0,
+          "parity": "-",
+          "original_rank": 2,
+          "observed_cm": 45185.5894,
+          "state": 2,
+          "v": 1,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        4,
+        32.0,
+        "-"
+      ],
+      "rows": [
+        {
+          "J": 32.0,
+          "parity": "-",
+          "original_rank": 5,
+          "observed_cm": 47600.7594,
+          "state": 2,
+          "v": 4,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        },
+        {
+          "J": 32.0,
+          "parity": "-",
+          "original_rank": 5,
+          "observed_cm": 47600.8594,
+          "state": 2,
+          "v": 4,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        3,
+        50.0,
+        "-"
+      ],
+      "rows": [
+        {
+          "J": 50.0,
+          "parity": "-",
+          "original_rank": 4,
+          "observed_cm": 47649.6194,
+          "state": 2,
+          "v": 3,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        },
+        {
+          "J": 50.0,
+          "parity": "-",
+          "original_rank": 34,
+          "observed_cm": 47649.8694,
+          "state": 2,
+          "v": 3,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        1,
+        72.0,
+        "-"
+      ],
+      "rows": [
+        {
+          "J": 72.0,
+          "parity": "-",
+          "original_rank": 2,
+          "observed_cm": 47592.8594,
+          "state": 2,
+          "v": 1,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        },
+        {
+          "J": 72.0,
+          "parity": "-",
+          "original_rank": 2,
+          "observed_cm": 47593.3094,
+          "state": 2,
+          "v": 1,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        }
+      ]
+    },
+    {
+      "key": [
+        2,
+        5,
+        74.0,
+        "-"
+      ],
+      "rows": [
+        {
+          "J": 74.0,
+          "parity": "-",
+          "original_rank": 6,
+          "observed_cm": 50663.6994,
+          "state": 2,
+          "v": 5,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        },
+        {
+          "J": 74.0,
+          "parity": "-",
+          "original_rank": 6,
+          "observed_cm": 50664.1994,
+          "state": 2,
+          "v": 5,
+          "Lambda": -1.0,
+          "Sigma": 0.0,
+          "Omega": 0.0,
+          "input_weight": 1.0
+        }
+      ]
+    }
+  ],
+  "duplicate_weighted_means": [
+    {
+      "source_rows": [
+        "14\t-\t7\t48617.45940\t2\t6\t-1\t0\t-1\t1",
+        "14\t-\t7\t48616.91940\t2\t6\t-1\t0\t-1\t1"
+      ],
+      "working_row": "14 - 7 48617.1894000000 2 6 -1 0 -1 2"
+    },
+    {
+      "source_rows": [
+        "28\t-\t2\t45185.54940\t2\t1\t-1\t0\t-1\t1",
+        "28\t-\t2\t45185.58940\t2\t1\t-1\t0\t-1\t1"
+      ],
+      "working_row": "28 - 2 45185.5694000000 2 1 -1 0 -1 2"
+    },
+    {
+      "source_rows": [
+        "32\t-\t5\t47600.75940\t2\t4\t-1\t0\t-1\t1",
+        "32\t-\t5\t47600.85940\t2\t4\t-1\t0\t-1\t1"
+      ],
+      "working_row": "32 - 5 47600.8094000000 2 4 -1 0 -1 2"
+    },
+    {
+      "source_rows": [
+        "50\t-\t4\t47649.61940\t2\t3\t-1\t0\t-1\t1",
+        "50\t-\t34\t47649.86940\t2\t3\t-1\t0\t-1\t1"
+      ],
+      "working_row": "50 - 4 47649.7444000000 2 3 -1 0 -1 2"
+    },
+    {
+      "source_rows": [
+        "72\t-\t2\t47592.85940\t2\t1\t-1\t0\t-1\t1",
+        "72\t-\t2\t47593.30940\t2\t1\t-1\t0\t-1\t1"
+      ],
+      "working_row": "72 - 2 47593.0844000000 2 1 -1 0 -1 2"
+    },
+    {
+      "source_rows": [
+        "74\t-\t6\t50663.69940\t2\t5\t-1\t0\t-1\t1",
+        "74\t-\t6\t50664.19940\t2\t5\t-1\t0\t-1\t1"
+      ],
+      "working_row": "74 - 6 50663.9494000000 2 5 -1 0 -1 2"
+    }
+  ],
+  "duplicate_policy": "Same physical QNs: retain summed weight and weighted mean; all raw records retained. Ordinary squared loss differs only by a fixed within-group constant. Parities are not guessed."
+}

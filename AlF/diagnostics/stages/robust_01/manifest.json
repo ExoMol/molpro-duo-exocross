@@ -1,0 +1,25 @@
+{
+  "input": "AlF_refinement\\runs\\least_squares_rotation\\best.inp",
+  "duo": "C:\\sergei\\programs\\Duo\\build\\ifx\\duo.exe",
+  "output": "AlF_refinement\\runs\\robust_01",
+  "jmax": 98,
+  "fit_jlist": null,
+  "rounds": 8,
+  "scale": 1.0,
+  "robust": 1e-05,
+  "criterion": "cauchy",
+  "lock": null,
+  "threads": 4,
+  "timeout": 600.0,
+  "source_sha256": "773503e324105d9e0206316a3597df35adc40164a32aa5acd0dda5caf87461aa",
+  "code_sha256": {
+    "audit_input.py": "1a731c47f5e0c20854370b616cc4ae40c58792d57144b44ae7abc40843047916",
+    "barrier.py": "42cdb5066f03676ca29c276ff46c0395d8b5fbecf8496dd4e19cca6c3bdf5cb6",
+    "check_curves.py": "b39771a4eaf0633f9c3188081098791ce568246f904270b01654d3c640358be8",
+    "configure.py": "2feefc275adb1755ce22127d8b29b14c8249a51c80a183ca543af9d6e0459db2",
+    "coupled.py": "91ad4626e58747d71c0309b7704343aff310f3dd27ee9451e352a4df7467d4cc",
+    "refine.py": "d4cde93f814361dbf190f36c7ebe994255256f269738faefbeff42f511df2a54",
+    "run_native.py": "995a7c411b53bfa17d13b7b2394ac7c903ccd15ef522a51f65a796c02c7766c6",
+    "seed_model.py": "e49a394ca9a66b9fb7a72f4c1f1db69c4cbc6bcc1dcd25b836046d89f19a6839"
+  }
+}

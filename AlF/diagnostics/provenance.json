@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-19",
+  "source_files": {
+    "27AlF_X1E+_A1Pi_EMO_02.inp": {
+      "path": "C:\\sergei\\programs\\duo-inputs\\AlF\\27AlF_X1E+_A1Pi_EMO_02.inp",
+      "sha256": "127cf339ddf406b6ef0c94966c3c30ae363fff211a7727f37da2adf13996768e"
+    },
+    "CH_freq-fit2_energy_fit_bound_343.inp": {
+      "path": "C:\\sergei\\programs\\duo-inputs\\AlF\\CH_freq-fit2_energy_fit_bound_343.inp",
+      "sha256": "8faa9ffcad96231e0ee55b3411302f44b0a1dd3afcc10e3220efadfd129e39ad"
+    },
+    "27Al-35Cl__YNAT__Duo.inp": {
+      "path": "C:\\sergei\\programs\\duo-inputs\\AlF\\27Al-35Cl__YNAT__Duo.inp",
+      "sha256": "b725cb64e9fdb073bc5132de40bb82db141f02f0c5cbc9474f7c64f5195a3153"
+    }
+  },
+  "native": {
+    "source": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\convergence\\box8.inp",
+    "source_sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+    "input_sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+    "duo": "C:\\sergei\\programs\\Duo\\build\\ifx\\duo.exe",
+    "duo_sha256": "3d45ab6e21673fd13a04d25f9ea9b20145a81a45d21d9601d2c2db49787c1e85",
+    "threads": 4,
+    "pid": 24524,
+    "returncode": 0,
+    "elapsed_seconds": 13.047000000020489,
+    "controlled_checkpoint_stop": false,
+    "complete_checkpoint": true,
+    "native_diagnostics_present": true
+  },
+  "scientific_status": "needs_review",
+  "numerical_status": "numerically_validated",
+  "selected_model_sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+  "tools_sha256": {
+    "audit_input.py": "6fd19772d3ce935e1c7cd2f7e1ef6e229216d7216a084ee2419224b3ee73b317",
+    "seed_model.py": "37e2afa5aa031ead9768478f234094a0fb8deb3c0dce350bdc98622a1f18e575",
+    "configure.py": "2feefc275adb1755ce22127d8b29b14c8249a51c80a183ca543af9d6e0459db2",
+    "coupled.py": "91ad4626e58747d71c0309b7704343aff310f3dd27ee9451e352a4df7467d4cc",
+    "barrier.py": "42cdb5066f03676ca29c276ff46c0395d8b5fbecf8496dd4e19cca6c3bdf5cb6",
+    "run_native.py": "995a7c411b53bfa17d13b7b2394ac7c903ccd15ef522a51f65a796c02c7766c6",
+    "refine.py": "d41ead681afdb6c3b7a460489f9c82dab9159b77b339ec85ca03d9cdcbf3dff1",
+    "convergence.py": "3149940c12217c50f4a2635b71fddf7fb039acdacebd8ade69a7793219849797",
+    "check_curves.py": "b39771a4eaf0633f9c3188081098791ce568246f904270b01654d3c640358be8",
+    "make_report.py": "e2765455b80ef647ea11066a090e17b9553fe074c92d648d25049b8501200174",
+    "pipeline.py": "8ec30e5c74735eb6a62ed9631d8e560fc0694e599aa529acbd24dff2972cd173",
+    "test_refinement.py": "a1f4469ca26cca4273893805f99363460a478bf3bec344c6370bb7ae0c7b84b3",
+    "requirements.txt": "25412683eb8f0b0049e66b26009838e23bc6cb4d4979f9da0f289599b0dab630"
+  }
+}

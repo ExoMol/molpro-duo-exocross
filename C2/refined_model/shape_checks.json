@@ -1,0 +1,340 @@
+{
+  "ok": true,
+  "range_angstrom": [
+    0.7,
+    6
+  ],
+  "points": 2001,
+  "fields": {
+    "POTEN:1:1": {
+      "ok": true,
+      "kind": "TWO_COUPLED_EMOS",
+      "name": "X1Sigmag+",
+      "max_change": 136.78671582019888,
+      "well_region_max_change_cm": 5.50041610262997,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": -151.32958011888877,
+      "maximum": 234516.65687592662
+    },
+    "POTEN:2:2": {
+      "ok": true,
+      "kind": "EMO",
+      "name": "a3Piu",
+      "max_change": 46.842247222259175,
+      "well_region_max_change_cm": 3.5501688918302534,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 572.0574159508136,
+      "maximum": 350095.23562587466
+    },
+    "POTEN:3:3": {
+      "ok": true,
+      "kind": "EMO",
+      "name": "A1Piu",
+      "max_change": 73.39704641682329,
+      "well_region_max_change_cm": 10.089966707586427,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 8243.289606831406,
+      "maximum": 344866.74912356713
+    },
+    "POTEN:4:4": {
+      "ok": true,
+      "kind": "EMO",
+      "name": "b3Sigmag-",
+      "max_change": 49.93762920756126,
+      "well_region_max_change_cm": 11.534303920278035,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 6287.705482376408,
+      "maximum": 407975.0657933464
+    },
+    "POTEN:5:5": {
+      "ok": true,
+      "kind": "EMO",
+      "name": "c3Sigmau+",
+      "max_change": 198.3461179526057,
+      "well_region_max_change_cm": 43.30469933201675,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 9023.051615352393,
+      "maximum": 325466.9966463833
+    },
+    "POTEN:6:6": {
+      "ok": true,
+      "kind": "TWO_COUPLED_EMOS",
+      "name": "d3Pig",
+      "max_change": 30.062077969312668,
+      "well_region_max_change_cm": 13.674720942806744,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 19878.711578589544,
+      "maximum": 369747.32869023085
+    },
+    "POTEN:7:7": {
+      "ok": true,
+      "kind": "EMO",
+      "name": "B1Deltag",
+      "max_change": 18.793869828048628,
+      "well_region_max_change_cm": 1.3804523406142835,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 11942.487384995755,
+      "maximum": 408301.8993685341
+    },
+    "POTEN:8:8": {
+      "ok": true,
+      "kind": "TWO_COUPLED_EMOS",
+      "name": "Bp1Sigmag+",
+      "max_change": 31.350661542848684,
+      "well_region_max_change_cm": 1.019274800295534,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 15256.018559059834,
+      "maximum": 343108.5797621674
+    },
+    "SPINORBIT:2:2": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<a3Pi|LSZ|a3Pi>",
+      "max_change": 1.8044713981749751,
+      "well_region_max_change_cm": null,
+      "turns": 3,
+      "baseline_turns": 3,
+      "minimum": -6.777472294894746,
+      "maximum": 20.428938778298086
+    },
+    "SPINORBIT:6:6": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<d3Pig|LSZ|d3Pig>",
+      "max_change": 0.01081434484267696,
+      "well_region_max_change_cm": null,
+      "turns": 2,
+      "baseline_turns": 2,
+      "minimum": 0.572508527716053,
+      "maximum": 1.0444296135926352
+    },
+    "SPINORBIT:2:3": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<a3Pi|LSZ|A1Pi>",
+      "max_change": 0.0,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 0.9999999999999999,
+      "maximum": 1.0
+    },
+    "SPINORBIT:1:4": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<X1Sigma|LSZ|b3Sigma->",
+      "max_change": 0.15918907953696676,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 0.4748951847312291,
+      "maximum": 0.8632971610234788
+    },
+    "SPINORBIT:8:4": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<Bp1Sigma|LSZ|b3Sigma->",
+      "max_change": 0.0,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 0.9999999999999999,
+      "maximum": 1.0
+    },
+    "SPINORBIT:4:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<b3Sigma-|LSX|d3Pig>",
+      "max_change": 0.8755292965874513,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": -1.1563192490001168,
+      "maximum": 0.9950603055625471
+    },
+    "SPINORBIT:7:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<B1Sigma)|LSX|d3Pig>",
+      "max_change": 0.31506808515549745,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 1.03718367594967,
+      "maximum": 1.653096912550906
+    },
+    "SPINORBIT:1:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<X1Sigma+|LSX|d3Pig>",
+      "max_change": 0.0,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 0.9999999999999999,
+      "maximum": 1.0
+    },
+    "SPINORBIT:3:5": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<A1Pi|LSX|c3Sigma>",
+      "max_change": 0.0,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 0.9999999999999999,
+      "maximum": 1.0
+    },
+    "SPINORBIT:8:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<B'1Sigma|LSX|d3Pig>",
+      "max_change": 0.015113346720685428,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": -1.5701197108414249,
+      "maximum": 0.29944307634764356
+    },
+    "SPINORBIT:2:5": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<a3Pi|LSX|c3Sigmau+>",
+      "max_change": 0.0,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 0.9999999999999999,
+      "maximum": 1.0
+    },
+    "L+:5:2": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<c3Sigmau+|LX|a3Piu>",
+      "max_change": 0.3357071350633043,
+      "well_region_max_change_cm": null,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 0.296361814176197,
+      "maximum": 1.281564158504239
+    },
+    "L+:4:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<b3Sigmag-|LX|d3Pig>",
+      "max_change": 0.0008729261434887725,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 1.0575412974182803,
+      "maximum": 1.2111006510521602
+    },
+    "SPINSPIN:2:2": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<a3Pi|SS|a3Pi>",
+      "max_change": 0.002567770030175248,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": -0.22170207555531238,
+      "maximum": -0.000548237007023885
+    },
+    "SPINSPIN:5:5": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<c3Sigmau+|LX|c3Sigmau+>",
+      "max_change": 0.0014163269466399564,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": -0.3531061484593117,
+      "maximum": -0.0006407257172785133
+    },
+    "SPINSPIN:6:6": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<+1 ,S=1 (d 3Pig)|SS|+1  (d 3Pig),S=1>",
+      "max_change": 0.4956022932577009,
+      "well_region_max_change_cm": null,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": -1.0303935862520108,
+      "maximum": 0.20457713696032775
+    },
+    "BOBROT:2:2": {
+      "ok": true,
+      "kind": "POLYNOM_DECAY_24",
+      "name": "<+1,S=1 (a3Pi)|BOBR|+1  (a3Pi),S=1>",
+      "max_change": 6.456875152863022e-05,
+      "well_region_max_change_cm": null,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": -0.011007571571744609,
+      "maximum": -5.10302089940353e-05
+    },
+    "SPINROT:2:2": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<+1,S=1 (a3Pi)|HSR|+1  (a3Pi),S=1>",
+      "max_change": 0.00014519294328719764,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": -0.002365818625131964,
+      "maximum": -4.745458888806346e-06
+    },
+    "SPINROT:6:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<+1 ,S=1 (d 3Pig)|SR|+1  (d 3Pig),S=1>",
+      "max_change": 0.10467801941830802,
+      "well_region_max_change_cm": null,
+      "turns": 1,
+      "baseline_turns": 0,
+      "minimum": -0.1025002928902587,
+      "maximum": 0.015919235053284474
+    },
+    "LAMBDAOPQ:2:2": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<+1,S=1 (a3Pi)|LSZ|+1  (a3Pi),S=1>",
+      "max_change": 0.08599267493569307,
+      "well_region_max_change_cm": null,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": 0.005005651768423624,
+      "maximum": 0.7379864726194909
+    },
+    "LAMBDAOPQ:6:6": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<+1 ,S=1 (d 3Pig)|SR|+1  (d 3Pig),S=1>",
+      "max_change": 1.1760349828781747,
+      "well_region_max_change_cm": null,
+      "turns": 1,
+      "baseline_turns": 1,
+      "minimum": -0.7856992253250957,
+      "maximum": 0.6967726704779253
+    },
+    "LAMBDAP2Q:2:2": {
+      "ok": true,
+      "kind": "BOBLEROY",
+      "name": "<+1,S=1 (a3Pi)|LSZ|+1  (a3Pi),S=1>",
+      "max_change": 3.7349446087462865e-05,
+      "well_region_max_change_cm": null,
+      "turns": 0,
+      "baseline_turns": 0,
+      "minimum": 2.8341294965233708e-05,
+      "maximum": 0.011506184718913329
+    }
+  }
+}

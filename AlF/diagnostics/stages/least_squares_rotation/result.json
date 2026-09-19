@@ -1,0 +1,7 @@
+{
+  "status": "needs_review",
+  "baseline_weighted_rms_cm": 0.4520019863272546,
+  "best_weighted_rms_cm": 0.44990800901319616,
+  "selected_calculation": "AlF_refinement\\runs\\least_squares_rotation\\round_05_fraction_1",
+  "validation": "Fresh full-J evaluation completed; basis convergence and mixed-state assignments require separate review."
+}
